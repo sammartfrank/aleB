@@ -32,7 +32,7 @@ class Vermas extends Component {
 						videos={result.videos}
 					/>)}
 				<hr />
-				{ this.state.limit > 4 ? <button onClick ={this.handleClose}>- Hide All</button> : <button onClick={this.handleOnVerMas}>+ View More</button>}
+				{ this.state.limit > 4 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-sm animated-button" onClick={this.handleOnVerMas}>+ View More</a>}
 			</div>
 			)
 	}

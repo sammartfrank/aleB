@@ -55,7 +55,7 @@ class Head extends Component {
 						to={{ opacity:1, transform: 'translateX(0)',}}
 						delay={1000}>
 							{props => <div style={props}>
-												<h1>Ale bArredo</h1>
+												<h1>Ale <br/>bArredo</h1>
 											</div>
 							}
 					</Spring>
