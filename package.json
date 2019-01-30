@@ -21,5 +21,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-responsive-carousel": "^3.1.46",
+    "react-spring": "^7.2.10"
+  }
 }

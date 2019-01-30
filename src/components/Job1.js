@@ -23,10 +23,7 @@ const Job1 = (title, subtitle, imgs ) => {
 					{/* grilla */}
 								<div className="imags">
 							<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
-									<div>
-									<p className="legend">swipe for more...</p>
 									<img src={sv1} alt="Seguridad Vial"/>	
-									</div>
 									<img src={sv2} alt="Seguridad Vial"/>
 									<img src={sv3} alt="Seguridad Vial"/>
 									<img src={sv4} alt="Seguridad Vial"/>

@@ -6,9 +6,101 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*Propiedad para que no haya desplazamiento Horizontal*/
+  /*Evitar overflow de contenido*/
+  overflow-x:hidden;
+  /**/
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*//MOBILE*************************INICIO*********************************************/
+
+/*Header Section****************INICIO**********************************/
+.header {
+	color: white;
+	text-align:center;
+	height: 75vh;
+	padding-top: 15em;
+}
+.header h1 {
+	font-size:55px;
+	padding:1em;
+}
+.header p {
+	font-size: 30px;
+	font-family: Kameron, regular;
+}
+.arr {
+	color: white;
+	padding-top:3.5em;
+	padding-bottom:9em;
+	font-size: 22px;
+}
+#arrow {
+	font-family: Kameron, regular;
+	font-size: 1.1em;
+}
+/*Header Section*****************FIN******************************/
+
+/*Job1 Section*****************INICIO********************************/
+.imags {
+	padding:2.5em;
+}
+.vidios video {
+	width:80%;
+	padding:2 em;
+	margin:0 auto;
+	padding-bottom:1em;
+}
+/*Job1 Section******************FIN*******************************/
+
+/*Preft / 2*************************INICIO********************************/
+.preft {
+	 color: white;
+	 font-family: Kameron, regular;
+	 padding-top: 13em;
+	 font-size:20px;
+	 width:80%;
+	 margin:0 auto;
+}
+/*Preft / 2************************FIN*********************************/
+
+/*Job2 Section*******************INICIO******************************/
+	.job2 {
+		padding-bottom:5em;
+		padding-top:2em;
+	}
+	.job2 h1{
+		font-size:2.3em;
+		padding-left:1em;
+	}
+/*Job2 Section********************FIN*****************************/
+
+/*Job3**************************INICIO**********************************/
+/*Job3**************************FIN**********************************/
+/*//Genericos*/
+.job, .job2, .job3 {
+	background:white;
+	color: black;
+}
+.job h1, .job2 h1, .job3 h1 {
+	font-size: 3em;
+	text-align:left;
+	padding-top:1em;
+	padding-left:0.7em;
+	padding-bottom:0.3em;
+}
+.job h3, .job2 h3, .job3 h3{
+	text-align:left;
+	padding-bottom:0.9em;
+	padding-left:1.3em;
+}
+h1, h3{
+	font-family: 'Major Mono Display', monospace;
+}
+/*//Genericos*/
+
+

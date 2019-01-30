@@ -11,7 +11,7 @@ const Job2 = (title, subtitle, imgs ) => {
 				{/* Nota: Tv print bajarlo, y agrandorlo 30%; */}
 				<h3>food network</h3>
 				{/* //videos */}
-				<div className='vidsscl'>
+				<div className='vidios'>
 							<video autoPlay loop muted src={video}></video>
 							<br/>
 							<video autoPlay muted loop src={video2}></video>

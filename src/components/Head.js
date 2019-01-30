@@ -49,7 +49,7 @@ class Head extends Component {
 					<div style={{width: '100vw', height: '100%',position: 'fixed', top: '0px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
   				<video src={video} autoPlay loop style={{width:'100vw', height:'100%', objectFit: 'cover'}}/>
 				</div>
-			 <div className="tit">
+			 <div className="header">
 					<Spring
 						from={{ opacity:0, transform: 'translateX(-150px)', }}
 						to={{ opacity:1, transform: 'translateX(0)',}}
@@ -59,8 +59,6 @@ class Head extends Component {
 											</div>
 							}
 					</Spring>
-				</div>
-				<div className="txt">
 					<Spring 
 							delay={1000}
 							from={{ opacity:0, transform: 'translateX(150px)', }}
@@ -81,7 +79,6 @@ class Head extends Component {
 								</div>}
 				</Spring>
 			</div>
-			{/* Nota: checkout todo mayusc, regular. en dos lineas. my work en bold.  */}
 			</div>
 		);
 	}
