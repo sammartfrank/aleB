@@ -10,14 +10,19 @@ const ResultItem = ({title, subtitle, id, imagenes, videos}) => {
 				<h1>{title}</h1>
 				<h3>{subtitle}</h3>
 					<div className='vidios'>
-						{videos}
+						{videos.length > 0 && <div>
+							<h3>Videos</h3>
+							{ <Carousel infiniteLoop showThumbs={false} interval={5000}>
+									{videos.map(src=> <video controls src={src} alt="video"></video>)}
+							</Carousel>}
+						</div>}
 					</div>
 					<div className="imags">
-								{imagenes && <div>Fuck off now</div>}
 								{imagenes.length > 0 && <div>
-									<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
-										<img src={imagenes}></img>
-									</Carousel>
+								<h3>grAficAs</h3>
+								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
+												{imagenes.map(src => <img src={src} alt="Seguridad Vial"/>)}
+									</Carousel>}
 								</div>}
 					</div>
 			</div>

@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import Vermas from './Vermas.js';
 
+// Angels Media
+
+
+
 var results = [
-	{title:'food netwoork', subtitle: 'Campaña para el gobierno de la ciudad', imagenes: [], videos: []},
+	{title:'food netwoork', subtitle: 'Angeles de lA cocinA', imagenes: [], videos: []},
 	{title:'trabajo 2', subtitle: 'campaña del desierto', imagenes: [], videos: []},
 	{title:'trabajo 3', subtitle: 'campaña del oceano', imagenes: [], videos: []},
 	{title:'trabajo 4', subtitle: 'campaña del culo', imagenes: [], videos: []},
@@ -17,6 +21,7 @@ class JobIntegratedContent extends Component {
 		return (
 			<div className="job2">
 					<h1>integrAted content</h1>
+				<hr />
 								<Vermas results={results}/>		
 			</div>
 			)	

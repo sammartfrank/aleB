@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import arrow from './img/arw.png';
 import { Spring } from 'react-spring';
 
-import video from './img/a.mp4';
+import video from './img/vids/a.mp4';
 
 class Head extends Component {
 

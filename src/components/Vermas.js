@@ -32,8 +32,7 @@ class Vermas extends Component {
 						videos={result.videos}
 					/>)}
 				<hr />
-				<button onClick={this.handleOnVerMas}>+ View More</button>
-				{ this.state.limit > 3 && <button onClick ={this.handleClose}>- Hide All</button>}
+				{ this.state.limit > 4 ? <button onClick ={this.handleClose}>- Hide All</button> : <button onClick={this.handleOnVerMas}>+ View More</button>}
 			</div>
 			)
 	}
