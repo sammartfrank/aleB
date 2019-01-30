@@ -12,11 +12,13 @@ class Home extends Component {
 		return (
 			<div className="">
 				<Head />
+				<div className="container-fluid">
 					<JobTV />
-						<Pref />
+					<Pref />
 					<JobIntegratedContent />
-						<Pref2 />
+					<Pref2 />	
 					<Job3 />
+				</div>
 				<Footer />
 			</div>
 		);

@@ -46,7 +46,6 @@ class JobTV extends Component {
 		return (
 			<div className="job">
 				<h1>tv&print</h1>
-				<hr />
 					<Vermas results={results}/>
 			</div>
 		)	

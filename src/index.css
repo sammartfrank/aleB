@@ -93,6 +93,7 @@ code {
 }
 .job h3, .job2 h3, .job3 h3{
 	text-align:left;
+	font-family: Kameron, regular;
 	padding-bottom:0.9em;
 	padding-left:1.3em;
 }
@@ -101,19 +102,13 @@ h1, h3{
 }
 /*//Genericos*/
 
-/*DESKTOP****************************************************************/
+/*DESKTOP*************************INICIO***************************************/
 @media (min-width: 768px) {
 
 .job, .job2, .job3 {
-	width: 60%;
+	width:50%;
 	margin: 0 auto;
 }
-
-
-
-
-
-
 
 }
 /*DESKTOP*/

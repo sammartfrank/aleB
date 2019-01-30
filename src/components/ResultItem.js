@@ -11,7 +11,6 @@ const ResultItem = ({title, subtitle, id, imagenes, videos}) => {
 				<h3>{subtitle}</h3>
 					<div className='vidios'>
 						{videos.length > 0 && <div>
-							<h3>Videos</h3>
 							{ <Carousel infiniteLoop showThumbs={false} interval={5000}>
 									{videos.map(src=> <video controls src={src} alt="video"></video>)}
 							</Carousel>}
@@ -19,7 +18,6 @@ const ResultItem = ({title, subtitle, id, imagenes, videos}) => {
 					</div>
 					<div className="imags">
 								{imagenes.length > 0 && <div>
-								<h3>grAficAs</h3>
 								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
 												{imagenes.map(src => <img src={src} alt="Seguridad Vial"/>)}
 									</Carousel>}

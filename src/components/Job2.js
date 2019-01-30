@@ -21,7 +21,6 @@ class JobIntegratedContent extends Component {
 		return (
 			<div className="job2">
 					<h1>integrAted content</h1>
-				<hr />
 								<Vermas results={results}/>		
 			</div>
 			)	
