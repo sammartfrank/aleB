@@ -1,37 +1,25 @@
-import React from 'react'
-import sv1 from './img/sv1.jpg';
-import sv2 from './img/sv2.jpg';
-import sv3 from './img/sv3.jpg';
-import sv4 from './img/sv4.jpg';
-import sv5 from './img/sv5.jpg';
-import svcin from './img/svcin.mp4';
-import svcasc from './img/svcasc.mp4';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import React, { Component } from 'react';
+import Vermas from './Vermas.js';
 
-const Job1 = (title, subtitle, imgs ) => {
-	return (
-		<div className="job">
+var results = [
+	{title:'road safety', subtitle: 'Campaña para el gobierno de la ciudad', imagenes: [], videos: []},
+	{title:'trabajo 2', subtitle: 'Campaña del desierto', imagenes: [], videos: []},
+	{title:'trabajo 3', subtitle: 'Campaña del oceano', imagenes: [], videos: []},
+	{title:'trabajo 4', subtitle: 'Campaña del culo', imagenes: [], videos: []},
+	];
+
+class JobTV extends Component {
+	constructor(props){
+		super(props);
+	}
+	render() {
+		return (
+			<div className="job">
 				<h1>tv&print</h1>
-				{/* Nota: Tv print bajarlo, y agrandorlo 30%; */}
-				<h3>roAd sAfety</h3>
-					{/* //videos */}
-					<div className='vidios'>
-						<video controls src={svcin}>#1</video>
-						<video controls src={svcasc}>#2</video>
-					</div>
-					{/* grilla */}
-								<div className="imags">
-							<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
-									<img src={sv1} alt="Seguridad Vial"/>	
-									<img src={sv2} alt="Seguridad Vial"/>
-									<img src={sv3} alt="Seguridad Vial"/>
-									<img src={sv4} alt="Seguridad Vial"/>
-									<img src={sv5} alt="Seguridad Vial"/>
-							</Carousel>
-									</div>
-					</div>
-		)
+					<Vermas results={results}/>
+			</div>
+		)	
+	}
 }
 
-export default Job1;
+export default JobTV;

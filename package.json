@@ -23,6 +23,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "prop-types": "^15.6.2",
     "react-responsive-carousel": "^3.1.46",
     "react-spring": "^7.2.10"
   }

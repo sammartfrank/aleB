@@ -1,28 +1,28 @@
-import React from 'react'
-import il1 from './img/il1.jpg';
-import il2 from './img/il2.jpg';
-import il3 from './img/il3.jpg';
-import il4 from './img/il4.jpg';
-import il5 from './img/il5.jpg';
+import React, { Component} from 'react'
+import Vermas from './Vermas.js';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const Job3 = () => {
-	return (
-		<div className="job3">
+var results = [
+	{title:'ilustraciones', subtitle: 'Campaña para el gobierno de la ciudad', imagenes: [], videos: []},
+	{title:'trabajo 2', subtitle: 'Campaña del desierto', imagenes: [], videos: []},
+	{title:'trabajo 3', subtitle: 'Campaña del oceano', imagenes: [], videos: []},
+	{title:'trabajo 4', subtitle: 'Campaña del culo', imagenes: [], videos: []},
+	];
+
+
+class JobSkillset extends Component {
+	constructor(props) {
+		super(props);
+	}
+	render() {
+		return (
+			<div className="job3">
 				<h1>skillset</h1>
-				<h3>mAny</h3>
-					<div className="imags">
-						<Carousel  autoPlay showThumbs={false} infiniteLoop interval={5000} transitionTime={800}>
-								<img src={il1} alt="Ilustraciones"/>
-								<img src={il2} alt="Ilustraciones"/>
-								<img src={il3} alt="Ilustraciones"/>
-								<img src={il4} alt="Ilustraciones"/>
-								<img src={il5} alt="Ilustraciones"/>
-							</Carousel>
-						</div>
-		</div>
+					<Vermas results={results}/>
+			</div>
 		)
+	}
 }
 
-export default Job3;
+export default JobSkillset;

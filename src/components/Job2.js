@@ -1,23 +1,26 @@
-import React from 'react'
-import video from './img/side1.MOV';
-import video2 from './img/side2.mov';
-import ang from './img/ladc.mp4';
+import React, { Component } from 'react';
+import Vermas from './Vermas.js';
+
+var results = [
+	{title:'food netwoork', subtitle: 'Campaña para el gobierno de la ciudad', imagenes: [], videos: []},
+	{title:'trabajo 2', subtitle: 'Campaña del desierto', imagenes: [], videos: []},
+	{title:'trabajo 3', subtitle: 'Campaña del oceano', imagenes: [], videos: []},
+	{title:'trabajo 4', subtitle: 'Campaña del culo', imagenes: [], videos: []},
+	];
 
 
-const Job2 = (title, subtitle, imgs ) => {
-	return (
-		<div className="job2">
-				<h1>integrAted content</h1>
-				{/* Nota: Tv print bajarlo, y agrandorlo 30%; */}
-				<h3>food network</h3>
-				{/* //videos */}
-				<div className='vidios'>
-							<video autoPlay loop muted src={video}></video>
-							<br/>
-							<video autoPlay muted loop src={video2}></video>
-					</div>
-		</div>
-		)
+class JobIntegratedContent extends Component {
+	constructor(props) {
+		super(props);
+	}
+	render() {
+		return (
+			<div className="job2">
+					<h1>integrAted content</h1>
+								<Vermas results={results}/>		
+			</div>
+			)	
+	}
 }
 
-export default Job2;
+export default JobIntegratedContent;
