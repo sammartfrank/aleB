@@ -31,11 +31,11 @@ import v8 from './img/suter/SUTER DENTISTA.mp4';
 import Vermas from './Vermas.js';
 
 var results = [
-	{title:'roAd sAfety', subtitle: 'cAmpañA pArA el gobierno de lA ciudAd', imagenes: [img1,img2,img3,img4,img5], videos: [sv1,sv2]},
-	{title:'desArme', subtitle: 'cAmpAñA pArA el gobierno de la ciudAd', imagenes: [img11,img12], videos: []},
-	{title:'fiAt', subtitle: 'cAmpAñA publicitAriA', imagenes: [img6,img7,img8,img9,img10], videos: []},
-	{title:'pim', subtitle: 'campaña para pim', imagenes: [], videos: [v1,v2,v3,v4,v5]},
-	{title:'suter', subtitle: 'campaña para suter', imagenes: [], videos: [v6,v7,v8]},
+	{title:'Road safety', subtitle: '', imagenes: [img1,img2,img3,img4,img5], videos: [sv1,sv2]},
+	{title:'Desarme', subtitle: '', imagenes: [img11,img12], videos: []},
+	{title:'Fiat', subtitle: '', imagenes: [img6,img7,img8,img9,img10], videos: []},
+	{title:'Pim', subtitle: '', imagenes: [], videos: [v1,v2,v3,v4,v5]},
+	{title:'Suter', subtitle: '', imagenes: [], videos: [v6,v7,v8]},
 	];
 
 class JobTV extends Component {

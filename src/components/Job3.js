@@ -11,10 +11,10 @@ import ilu4 from './img/ilus/il4.jpg';
 import ilu5 from './img/ilus/il5.jpg'; 
 
 var results = [
-	{title:'ilustraciones', subtitle: 'Arte digital', imagenes: [ilu1,ilu2,ilu3,ilu4,ilu5], videos: []},
-	{title:'trabajo 2', subtitle: 'Campaña del desierto', imagenes: [], videos: []},
-	{title:'trabajo 3', subtitle: 'Campaña del oceano', imagenes: [], videos: []},
-	{title:'trabajo 4', subtitle: 'Campaña del culo', imagenes: [], videos: []},
+	{title:'Ilustraciones', subtitle: '', imagenes: [ilu1,ilu2,ilu3,ilu4,ilu5], videos: []},
+	{title:'trabajo 2', subtitle: '', imagenes: [], videos: []},
+	{title:'trabajo 3', subtitle: '', imagenes: [], videos: []},
+	{title:'trabajo 4', subtitle: '', imagenes: [], videos: []},
 	];
 
 
@@ -26,7 +26,6 @@ class JobSkillset extends Component {
 		return (
 			<div className="job3">
 				<h1>skillset</h1>
-				<hr />
 					<Vermas results={results}/>
 			</div>
 		)

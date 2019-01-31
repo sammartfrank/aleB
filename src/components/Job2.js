@@ -6,10 +6,10 @@ import Vermas from './Vermas.js';
 
 
 var results = [
-	{title:'food netwoork', subtitle: 'Angeles de lA cocinA', imagenes: [], videos: []},
-	{title:'trabajo 2', subtitle: 'campaña del desierto', imagenes: [], videos: []},
-	{title:'trabajo 3', subtitle: 'campaña del oceano', imagenes: [], videos: []},
-	{title:'trabajo 4', subtitle: 'campaña del culo', imagenes: [], videos: []},
+	{title:'food netwoork', subtitle: '', imagenes: [], videos: []},
+	{title:'trabajo 2',subtitle:'', imagenes: [], videos: []},
+	{title:'trabajo 3', subtitle: '', imagenes: [], videos: []},
+	{title:'trabajo 4', subtitle: '', imagenes: [], videos: []},
 	];
 
 
@@ -20,7 +20,7 @@ class JobIntegratedContent extends Component {
 	render() {
 		return (
 			<div className="job2">
-					<h1>integrAted content</h1>
+				<h1>integrated content</h1>
 								<Vermas results={results}/>		
 			</div>
 			)	

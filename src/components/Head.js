@@ -46,16 +46,16 @@ class Head extends Component {
 	render() {
 		return (
 			<div className="container-fluid" id="start" style={{display:'static'}}>
+			 <div className="header">
 					<div style={{width: '100vw', height: '100%',position: 'fixed', top: '0px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
   				<video src={video} autoPlay loop style={{width:'100vw', height:'100%', objectFit: 'cover'}}/>
 				</div>
-			 <div className="header">
 					<Spring
 						from={{ opacity:0, transform: 'translateX(-150px)', }}
 						to={{ opacity:1, transform: 'translateX(0)',}}
 						delay={1000}>
 							{props => <div style={props}>
-												<h1>Ale <br/>bArredo</h1>
+												<h1>Ale<br/>bArredo</h1>
 											</div>
 							}
 					</Spring>
@@ -75,7 +75,7 @@ class Head extends Component {
 							to={{opacity:1, transform: 'translateY(0)',}}
 						>{props => <div style={props} id="arrow">
 									<p>Check out <br/><strong>my work</strong></p>
-									<img src={arrow} />
+									<img src={arrow} id="ok" />
 								</div>}
 				</Spring>
 			</div>

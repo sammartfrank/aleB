@@ -6,25 +6,35 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const ResultItem = ({title, subtitle, id, imagenes, videos}) => {
 	return (
-			<div>
-				<h1>{title}</h1>
-				<h3>{subtitle}</h3>
+			<div className="item">
+				<h3>{title}</h3>
+				{subtitle.length !== 0 && <h3>{subtitle}</h3>}
 					<div className='vidios'>
-						{videos.length > 0 && <div>
-							{ <Carousel infiniteLoop showThumbs={false} interval={5000}>
-									{videos.map(src=> <video controls src={src} alt="video"></video>)}
+						{videos.length >= 3 && <div>
+							{<Carousel infiniteLoop showThumbs={false} interval={5000}>
+										{videos.map(src=> <video key={id} controls src={src} alt="video"></video>)}
 							</Carousel>}
 						</div>}
+							{videos.length <3 && <div>
+								{videos.map(src=> <video  key={id} className="colvids" src={src} controls></video> )}
+							</div>}
 					</div>
 					<div className="imags">
 								{imagenes.length > 0 && <div>
 								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
-												{imagenes.map(src => <img src={src} alt="Seguridad Vial"/>)}
+												{imagenes.map(src => <img  key={id} src={src} alt="Seguridad Vial"/>)}
 									</Carousel>}
 								</div>}
 					</div>
 			</div>
 		)
+}
+
+ResultItem.defaultProps = {
+	title: 'here goes a Titlte',
+	subtitle: 'here goes a Subtitle',
+	imagenes: [],
+	videos: [],
 }
 ResultItem.propTypes = {
 	title: PropTypes.string.isRequired,

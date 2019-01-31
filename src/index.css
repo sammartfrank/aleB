@@ -17,7 +17,14 @@ code {
 }
 
 /*//MOBILE*************************INICIO*********************************************/
-
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: -20px;
+  }
+  50% {
+    bottom:-35px;
+  }
+}
 /*Header Section****************INICIO**********************************/
 .header {
 	color: white;
@@ -42,15 +49,20 @@ code {
 	font-family: Kameron, regular;
 	font-size: 1.1em;
 }
+#ok {
+	animation: MoveUpDown 1s linear infinite;
+	position:absolute;
+	left:49%;
+}
 /*Header Section*****************FIN******************************/
 
 /*Job1 Section*****************INICIO********************************/
 .imags {
 	padding:2.5em;
 }
+
 .vidios video {
 	width:80%;
-	padding:2 em;
 	margin:0 auto;
 	padding-bottom:1em;
 }
@@ -67,12 +79,18 @@ code {
 }
 /*Preft / 2************************FIN*********************************/
 
+.results {
+	padding-bottom:2em;
+	width:100%;
+}
 a.animated-button {
 	color: black;
 	cursor: pointer;
 	display: block;
 	width:10em;
-	margin:0 auto;
+	padding-top:1em;
+	padding-bottom:1em;
+	margin: 0 auto;
 	position: relative;
 	border:1px solid black;
 	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
@@ -106,10 +124,6 @@ a.animated-button:before {
 		padding-bottom:5em;
 		padding-top:2em;
 	}
-	.job2 h1{
-		font-size:2.3em;
-		padding-left:1em;
-	}
 /*Job2 Section********************FIN*****************************/
 
 /*//Genericos*/
@@ -118,10 +132,10 @@ a.animated-button:before {
 	color: black;
 }
 .job h1, .job2 h1, .job3 h1 {
-	font-size: 3em;
 	text-align:left;
+	font-size:2em;
 	padding-top:1em;
-	padding-left:0.7em;
+	padding-left:1em;
 	padding-bottom:0.3em;
 }
 .job h3, .job2 h3, .job3 h3{
@@ -132,17 +146,59 @@ a.animated-button:before {
 }
 h1{
 	font-family: 'Major Mono Display', monospace;
+	font-size:inherit;
 }
 /*//Genericos*/
 
-/*DESKTOP*************************INICIO***************************************/
-@media (min-width: 768px) {
-
-.job, .job2, .job3 {
-	width:50%;
-	margin: 0 auto;
+/*FOOTER*/
+.footer {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	padding:8em;
 }
 
+/*FOOTER*/
+
+/*DESKTOP*************************INICIO***************************************/
+@media (min-width: 768px) {
+.job, .job2, .job3 {
+	width:100%;
+	margin: 0 auto;
+}
+.job h1, .job2 h1, .job3 h1 {
+	padding-left: 14.5em;
+	font-size:2rem;
+}
+.job h3, .job2 h3, .job3 h3{
+	font-family: Kameron, bold;
+	padding-bottom:0.9em;
+	padding-left: 0;
+}
+.preft {
+	 padding-top: 16em;
+	 font-size:20px;
+	 width:25%;
+	 margin:0 auto;
+}
+.results {
+	width:40%;
+	margin: 0 auto;
+	padding-bottom:4em;
+}
+.item {
+	padding-bottom:1em;
+}
+.vidios video {
+	width:100%;
+	margin:0 auto;
+	padding-bottom:1em;
+}
+.imags {
+	padding:0;
+}
+a.animated-button{
+	margin-top:2em;
+}
 }
 /*DESKTOP*/
 

@@ -25,13 +25,12 @@ class Vermas extends Component {
 				{!results && <div>No Jobs done motherfucker</div>}
 				{results && results.map(result => 
 					<ResultItem
-						key={result.id}
+						key={result.title}
 						title={result.title}
 						subtitle={result.subtitle}
 						imagenes={result.imagenes}
 						videos={result.videos}
 					/>)}
-				<hr />
 				{ this.state.limit > 4 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-sm animated-button" onClick={this.handleOnVerMas}>+ View More</a>}
 			</div>
 			)
