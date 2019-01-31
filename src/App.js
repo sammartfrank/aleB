@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Head from './components/Head.js';
+import Glow from './components/Glow.js';
 import Job1 from './components/Job1.js';
 import Job2 from './components/Job2.js';
 import Job3 from './components/Job3.js';
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Head />
+        <Glow />
           <Job1 />
         <Pref />
           <Job2 />
