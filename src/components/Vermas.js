@@ -31,7 +31,7 @@ class Vermas extends Component {
 						imagenes={result.imagenes}
 						videos={result.videos}
 					/>)}
-				{ this.state.limit > 4 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-sm animated-button" onClick={this.handleOnVerMas}>+ View More</a>}
+				{ this.state.limit > 4 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
 			</div>
 			)
 	}

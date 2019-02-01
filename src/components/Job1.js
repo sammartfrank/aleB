@@ -31,7 +31,7 @@ import v8 from './img/suter/SUTER DENTISTA.mp4';
 import Vermas from './Vermas.js';
 
 var results = [
-	{title:'Road safety', subtitle: '', imagenes: [img1,img2,img3,img4,img5], videos: [sv1,sv2]},
+	{title:'road safety', subtitle: '', imagenes: [img1,img2,img3,img4,img5], videos: [sv1,sv2]},
 	{title:'Desarme', subtitle: '', imagenes: [img11,img12], videos: []},
 	{title:'Fiat', subtitle: '', imagenes: [img6,img7,img8,img9,img10], videos: []},
 	{title:'Pim', subtitle: '', imagenes: [], videos: [v1,v2,v3,v4,v5]},
@@ -45,7 +45,6 @@ class JobTV extends Component {
 	render() {
 		return (
 			<div className="job">
-				<h1>tv&print</h1>
 					<Vermas results={results}/>
 			</div>
 		)	

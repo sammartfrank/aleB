@@ -11,11 +11,11 @@ class Glow extends Component {
 			<div>
 				<div className="container-fluid" style={{background:'rgba(0,0,0,0.7)', position:'absolute', height:'100vh'}}>
 					<Spring 
-							delay={2000}
-							from={{ opacity:0, transform: 'translateY(0)',  }}
-							to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'3'}}>
+							delay={3500}
+							from={{ opacity:0, transform: 'translateY(0)',zIndex:'1045'  }}
+							to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'1'}}>
 								{props => <div style={props} className="preft">
-								<h1>road safety</h1>
+								<h1>tv&print</h1>
 								</div>}
 					</Spring>
 				</div>

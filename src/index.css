@@ -87,7 +87,8 @@ a.animated-button {
 	color: black;
 	cursor: pointer;
 	display: block;
-	width:10em;
+	width:4em;
+	border-radius: 100%;
 	padding-top:1em;
 	padding-bottom:1em;
 	margin: 0 auto;
@@ -163,6 +164,7 @@ h1{
 @media (min-width: 768px) {
 .job, .job2, .job3 {
 	width:100%;
+	position:relative;
 	margin: 0 auto;
 }
 .job h1, .job2 h1, .job3 h1 {
@@ -171,9 +173,11 @@ h1{
 }
 .job h3, .job2 h3, .job3 h3{
 	font-family: Kameron, bold;
-	padding-bottom:0.9em;
-	padding-left: 0;
-}
+	position:absolute;
+	left:15%;
+	text-align:right;
+	z-index:1079;
+	}
 .preft {
 	 padding-top: 16em;
 	 font-size:20px;
@@ -186,6 +190,7 @@ h1{
 	padding-bottom:4em;
 }
 .item {
+	padding-top:2em;
 	padding-bottom:1em;
 }
 .vidios video {
