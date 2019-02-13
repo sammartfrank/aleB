@@ -20,7 +20,6 @@ class JobIntegratedContent extends Component {
 	render() {
 		return (
 			<div className="job2">
-				<h1>integrated content</h1>
 								<Vermas results={results}/>		
 			</div>
 			)	

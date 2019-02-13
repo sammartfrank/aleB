@@ -34,6 +34,8 @@ code {
 }
 .header h1 {
 	font-size:55px;
+	line-height:1;
+	letter-spacing:0.1em;
 }
 .header p {
 	font-size: 30px;
@@ -52,7 +54,7 @@ code {
 #ok {
 	animation: MoveUpDown 1s linear infinite;
 	position:absolute;
-	left:49%;
+	left:47%;
 }
 /*Header Section*****************FIN******************************/
 
@@ -72,13 +74,20 @@ code {
 .preft {
 	 color: white;
 	 font-family: Kameron, regular;
-	 padding-top: 13em;
-	 font-size:20px;
+	 padding-top: 18em;
+	 font-weight:350;
 	 width:80%;
 	 margin:0 auto;
 }
-/*Preft / 2************************FIN*********************************/
+.preft h1 {
+	 font-size:2.5em;
+	 padding-top:2.5em;
 
+}
+/*Preft / 2************************FIN*********************************/
+.carvids {
+	padding: 2.5em;
+}
 .results {
 	padding-bottom:2em;
 	width:100%;
@@ -140,10 +149,17 @@ a.animated-button:before {
 	padding-bottom:0.3em;
 }
 .job h3, .job2 h3, .job3 h3{
+	font-size:1.5em;
 	text-align:left;
 	font-family: Kameron, regular;
-	padding-bottom:0.9em;
-	padding-left:1.3em;
+	padding-top:1em;
+	padding-bottom:0.5em;
+	padding-left:1.7em;
+}
+.job p, .job2 p, .job3 p {
+	padding:2.6em;
+	padding-top:0;
+	text-align: justify;
 }
 h1{
 	font-family: 'Major Mono Display', monospace;
@@ -183,6 +199,9 @@ h1{
 	 font-size:20px;
 	 width:25%;
 	 margin:0 auto;
+}
+#ok {
+	left:49%;
 }
 .results {
 	width:40%;

@@ -25,7 +25,6 @@ class JobSkillset extends Component {
 	render() {
 		return (
 			<div className="job3">
-				<h1>skillset</h1>
 					<Vermas results={results}/>
 			</div>
 		)
