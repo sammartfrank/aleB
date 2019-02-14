@@ -160,7 +160,7 @@ a.animated-button:before {
 	padding-left:1.7em;
 }
 .job p, .job2 p, .job3 p {
-	padding:2.6em;
+	/*padding:2.6em;*/
 	padding-top:0;
 	text-align: justify;
 	font-family: Kameron, regular;
@@ -172,12 +172,23 @@ h1{
 /*//Genericos*/
 
 /*FOOTER*/
-.footer {
-	background: rgba(0,0,0,0.5);
-	color: white;
-	padding:8em;
+.contact {
+background: black;
 }
-
+.ctx {
+	padding: 0;
+	color: white;
+	position: absolute;
+	left: 24%;
+	top: 33.5%;
+}
+.ctx h1 {
+	font-size:2.5em;
+}
+.ctx h3 {
+	font-family: Kameron, bold;
+	font-size:2em;
+}
 /*FOOTER*/
 
 /*DESKTOP*************************INICIO***************************************/
@@ -236,7 +247,7 @@ h1{
 .item {
 				display: grid;
     grid-template-columns: 25% 75%;
-    grid-column-gap: 25px;
+    grid-column-gap: 15px;
     grid-row-gap: 4px;
     justify-items: stretch;
     align-items: stretch;
@@ -249,6 +260,22 @@ h1{
 }
 a.animated-button{
 	margin-top:2em;
+}
+.ctx {
+	padding: 0;
+	color: white;
+	position: absolute;
+	left: 38%;
+	top: 30%;
+}
+.ctx h1 {
+	font-size: 4.5rem;
+}
+.ctx h3 {
+	font-size:3.5rem;
+}
+.ctx p {
+	font-size:1.4em;
 }
 }
 /*DESKTOP*/
