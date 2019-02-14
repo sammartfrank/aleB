@@ -28,11 +28,12 @@ class Vermas extends Component {
 						key={result.title}
 						title={result.title}
 						subtitle={result.subtitle}
+						parraf={result.parraf}
 						imagenes={result.imagenes}
 						videos={result.videos}
 						urls={result.urls}
 					/>)}
-				{ this.state.limit > 4 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
+				{ this.state.limit >= 10 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
 			</div>
 			)
 	}
