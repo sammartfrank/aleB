@@ -245,7 +245,7 @@ background: black;
 	padding:0;
 }
 .item {
-				display: grid;
+				display: grid;x`
     grid-template-columns: 18% 12% 52% 10%;
     grid-column-gap: 35px;
     grid-row-gap: 4px;

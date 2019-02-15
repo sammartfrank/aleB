@@ -14,7 +14,7 @@ class Head extends Component {
     word: "",
     count: 0,
     i: 0,
-    timeAnimation: 95,
+    timeAnimation: 1000,
     timer: false,
     animation: "",
     forward: function forward() {
