@@ -14,7 +14,8 @@ class Head extends Component {
     word: "",
     count: 0,
     i: 0,
-    timeAnimation: 1000,
+    await: 5000,
+    timeAnimation: 100,
     timer: false,
     animation: "",
     forward: function forward() {
@@ -33,6 +34,7 @@ class Head extends Component {
         }
         if (this.word == this.selectWord) {
             this.timer = true;
+
         } else if (this.word === "") {
             this.timer = false;
             this.count++;
@@ -74,7 +76,7 @@ class Head extends Component {
 							from={{opacity:0, transform: 'translateY(-150px)',}}
 							to={{opacity:1, transform: 'translateY(0)',}}
 						>{props => <div style={props} id="arrow">
-									<p>Check out <br/><strong>my work</strong></p>
+									<p>CHECK OUT <br/><strong>MY WORK</strong></p>
 									<img src={arrow} id="ok" />
 								</div>}
 				</Spring>
