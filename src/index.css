@@ -160,7 +160,7 @@ a.animated-button:before {
 	padding-left:1.7em;
 }
 .job p, .job2 p, .job3 p {
-	/*padding:2.6em;*/
+	padding:2.6em;
 	padding-top:0;
 	text-align: justify;
 	font-family: Kameron, regular;
@@ -180,7 +180,7 @@ background: black;
 	color: white;
 	position: absolute;
 	left: 24%;
-	top: 33.5%;
+	top: 33.7%;
 }
 .ctx h1 {
 	font-size:2.5em;
@@ -196,7 +196,6 @@ background: black;
 
 .job, .job2, .job3 {
 	width:100%;
-	position:relative;
 	margin: 0 auto;
 }
 .job h1, .job2 h1, .job3 h1 {
@@ -204,7 +203,8 @@ background: black;
 	font-size:2rem;
 }
 .job h3, .job2 h3, .job3 h3{
-	font-family: Kameron, bold;
+	font-family: Kameron, regular;
+	font-weight: 600;
 
 	text-align:right;
 	z-index:1079;
@@ -228,53 +228,56 @@ background: black;
 	left:49%;
 }
 .results {
-	width:40%;
+	width:100%;
 	margin: 0 auto;
 	padding-bottom:4em;
 }
-.item {
-/*	padding-top:2em;
-	padding-bottom:1em;*/
-}
 .vidios video {
-	width:100%;
+	width:80%;
 	margin:0 auto;
 	padding-bottom:1em;
+	text-align:none;
 }
+
 .imags {
+	margin-top:2em;
+	width:41.2vw;
 	padding:0;
 }
 .item {
 				display: grid;
-    grid-template-columns: 25% 75%;
-    grid-column-gap: 15px;
+    grid-template-columns: 18% 12% 52% 10%;
+    grid-column-gap: 35px;
     grid-row-gap: 4px;
     justify-items: stretch;
     align-items: stretch;
+    margin: 0 auto;
+}
+.carvids {
+	padding: 0;
 }
 .media {
-	display:grid;
+	margin: 0 auto;
 	padding-top:1.5em;
-	grid-template-columns: 1fr;
-
+	text-align:left;
 }
 a.animated-button{
 	margin-top:2em;
 }
-.ctx {
-	padding: 0;
+.footer {
+	padding: 2em;
 	color: white;
 	position: absolute;
-	left: 38%;
+	left: 35%;
 	top: 30%;
 }
-.ctx h1 {
+.footer h1 {
 	font-size: 4.5rem;
 }
-.ctx h3 {
-	font-size:3.5rem;
+.footer h3 {
+	font-size:2.5rem;
 }
-.ctx p {
+.footer p {
 	font-size:1.4em;
 }
 }

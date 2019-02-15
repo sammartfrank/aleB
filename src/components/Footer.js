@@ -11,7 +11,7 @@ const Footer = () => {
 								delay={3500}
 								from={{ opacity:0, transform: 'translateY(0)',zIndex:'1045'  }}
 								to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'1'}}>
-									{props => <div style={props} className="ctx">
+									{props => <div style={props} className="footer">
 											<h1>contAct</h1>
 											<h3>Write</h3>
 											<p>alebarredo@gmail.com</p>
