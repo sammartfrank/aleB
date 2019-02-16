@@ -33,19 +33,19 @@ code {
 	padding-top: 18em;
 }
 .header h1 {
-	font-size:55px;
-	line-height:0.95;
-	letter-spacing:0.02em;
+	font-size:60px;
+	line-height:1em;
+	letter-spacing:0.01em;
 }
 .header p {
-	font-size: 30px;
+	font-size: 26px;
 	font-family: Kameron, regular;
 }
 .arr {
     color: white;
     padding-top: 5em;
     padding-bottom: 9em;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1;
 }
 #arrow {
@@ -61,14 +61,14 @@ code {
 
 /*Job1 Section*****************INICIO********************************/
 .imags {
-	padding:2.7em;
+	/padding:2.7em;
 }
 .media {
 	display:grid;
 }
 
 .vidios video {
-	width:80%;
+	width:100%;
 	margin:0 auto;
 	padding-bottom:1em;
 }
@@ -84,8 +84,10 @@ code {
 	 margin:0 auto;
 }
 .preft h1 {
-	 font-size:2.5em;
-	 padding-top:2.5em;
+	 font-size:3em;
+	 padding-top:.8em;
+     text-align:center;
+
 
 }
 /*Preft / 2************************FIN*********************************/
@@ -160,6 +162,8 @@ a.animated-button:before {
 }
 .job h3, .job2 h3, .job3 h3{
 	font-size:1.5em;
+    letter-spacing:.04em;
+    line-height:1em;
 	text-align:left;
 	font-family: Kameron, regular;
 	padding-top:1em;
@@ -169,7 +173,7 @@ a.animated-button:before {
 .job p, .job2 p, .job3 p {
 	padding:2.6em;
 	padding-top:0;
-    line-height:1.2;
+    line-height:1.15;
 	text-align: justify;
 	font-family: Kameron, regular;
 }
@@ -200,7 +204,7 @@ background: black;
 /*FOOTER*/
 
 /*DESKTOP*************************INICIO***************************************/
-@media (min-width: 768px) {
+@media (min-width: 600px) {
 
 .job, .job2, .job3 {
 	width:100%;
