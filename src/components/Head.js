@@ -77,7 +77,7 @@ class Head extends Component {
 							from={{opacity:0, transform: 'translateY(-150px)',}}
 							to={{opacity:1, transform: 'translateY(0)',}}
 						>{props => <div style={props} id="arrow">
-									<p>CHECK OUT <br/><strong>MY WORK</strong></p>
+									<p>CHECK OUT<br/><strong>MY WORK</strong></p>
 									<img src={arrow} id="ok" />
 								</div>}
 				</Spring>

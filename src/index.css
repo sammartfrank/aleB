@@ -43,9 +43,9 @@ code {
 }
 .arr {
     color: white;
-    padding-top: 3.5em;
+    padding-top: 5em;
     padding-bottom: 9em;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1;
 }
 #arrow {
@@ -97,17 +97,18 @@ code {
 	width:100%;
 }
 a.animated-button {
-	color: black;
-	cursor: pointer;
-	display: block;
-	width:4em;
-	border-radius: 100%;
-	padding-top:1em;
-	padding-bottom:1em;
-	margin: 0 auto;
-	position: relative;
-	border:1px solid black;
-	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+    color: black;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    width: 3.8em;
+    border-radius: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid black;
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button:hover {
 	color: white !important;
@@ -247,7 +248,7 @@ background: black;
 }
 
 .imags {
-	margin-top:2em;
+	/margin-top:.2em;
 	width:41.2vw;
 	padding:0;
 }
