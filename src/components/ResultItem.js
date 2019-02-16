@@ -37,7 +37,7 @@ const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
 }
 
 ResultItem.defaultProps = {
-	title: 'here goes a Titlte',
+	title: 'here goes a Title',
 	subtitle: 'here goes a Subtitle',
 	parraf: "Paragraph",
 	imagenes: [],

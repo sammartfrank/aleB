@@ -15,7 +15,7 @@ class Pref2 extends Component {
 							from={{ opacity:0, transform: 'translateY(0)',  }}
 							to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'3'}}>
 								{props => <div style={props} className="preft">
-								<p>Time at home never goes to waste. Adding knowledge to my skill-set is a constant that won’t stop. 3d modeling, game development, music production and illustration are passions that can turn useful at any given project.</p>
+								<p>Time at home never goes to waste. Adding knowledge to my skill-set is a constant that won’t stop. 3d modeling, game development, music production and illustration are passions that i can turn useful at any given project.</p>
 								</div>}
 					</Spring>
 				</div>

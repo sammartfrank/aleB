@@ -8,7 +8,7 @@ class Head extends Component {
 
 	componentDidMount() {
 		var typer = {
-    arrWords: ["30 yo.  ", "Thinking  ", "Building  ", "Creating  ", "Colouring  ", "Modeling  ", "Thinking some more  ", "Developing  ", "Advertisingness within  ", "Skill-set for modern times  ", "Based in Buenos Aires  ", "Gamer  "],
+    arrWords: ["30 yo.  ", "Thinking  ", "Creating  ", "Developing  ", "Modeling  ", "Thinking some more  ", "Modern skill-set  ", "Buenos Aires  ", "Gamer  ", "<3 Cooking  "],
     el: document.getElementById("type-word"),
     selectWord: "",
     word: "",
