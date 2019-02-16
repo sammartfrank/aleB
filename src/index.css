@@ -30,7 +30,7 @@ code {
 	color: white;
 	text-align:center;
 	height: 75vh;
-	padding-top: 15em;
+	padding-top: 18em;
 }
 .header h1 {
 	font-size:55px;
@@ -141,9 +141,14 @@ a.animated-button:before {
 /*Job2 Section********************FIN*****************************/
 
 /*//Genericos*/
-.job, .job2, .job3 {
+.job, .job2 {
 	background:white;
 	color: black;
+}
+
+.job3 {
+    background: black;
+    color: white;
 }
 .job h1, .job2 h1, .job3 h1 {
 	text-align:left;
@@ -163,6 +168,7 @@ a.animated-button:before {
 .job p, .job2 p, .job3 p {
 	padding:2.6em;
 	padding-top:0;
+    line-height:1.2;
 	text-align: justify;
 	font-family: Kameron, regular;
 }

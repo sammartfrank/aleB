@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import arrow from './img/arw.png';
 import { Spring } from 'react-spring';
 
-import video from './img/vids/ladc.mp4';
+import video from './img/rrss/BG.mp4';
 
 class Pref extends Component {
 

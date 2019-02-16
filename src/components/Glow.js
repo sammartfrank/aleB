@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import arrow from './img/arw.png';
 import { Spring } from 'react-spring';
 
-import video from './img/vids/tvprint.mp4';
+import video from './img/tv-print/BG.mp4';
 
 class Glow extends Component {
 

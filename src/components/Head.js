@@ -2,20 +2,21 @@ import React, { Component } from 'react';
 import arrow from './img/arw.png';
 import { Spring } from 'react-spring';
 
-import video from './img/vids/HOME.mp4';
+import video from './img/HOME.mp4';
 
 class Head extends Component {
 
 	componentDidMount() {
 		var typer = {
-    arrWords: ["30 yo. Thinking", "Building", "Creating", "Colouring", "Modeling", "Thinking some more", "Shaping", "Developing", "Advertisingness within", "Skill-set for modern times", "Based in Buenos Aires.", "Inspired Creative", "Aware", "Gamer", "Human"],
+    arrWords: ["30 yo.  ", "Thinking  ", "Building  ", "Creating  ", "Colouring  ", "Modeling  ", "Thinking some more  ", "Developing  ", "Advertisingness within  ", "Skill-set for modern times  ", "Based in Buenos Aires  ", "Gamer  "],
     el: document.getElementById("type-word"),
     selectWord: "",
     word: "",
     count: 0,
     i: 0,
     await: 5000,
-    timeAnimation: 100,
+    timeAnimationWrite: 100,
+    timeAnimationDelete: 50,
     timer: false,
     animation: "",
     forward: function forward() {
@@ -26,11 +27,11 @@ class Head extends Component {
         if (!this.timer) {
             this.word = this.selectWord.slice(0, ++this.i);
             this.el.innerHTML = this.word;
-            this.animation = setTimeout(this.forward.bind(typer), this.timeAnimation);
+            this.animation = setTimeout(this.forward.bind(typer), this.timeAnimationWrite);
         } else {
             this.word = this.selectWord.slice(0, --this.i);
             this.el.innerHTML = this.word;
-            this.animation = setTimeout(this.forward.bind(typer), this.timeAnimation);
+            this.animation = setTimeout(this.forward.bind(typer), this.timeAnimationDelete);
         }
         if (this.word == this.selectWord) {
             this.timer = true;

@@ -22,7 +22,7 @@ class Vermas extends Component {
 		const results = this.props.results.slice(0, this.state.limit);
 		return (
 			<div className="results">
-				{!results && <div>No Jobs done motherfucker</div>}
+				{!results && <div>No Jobs to display</div>}
 				{results && results.map(result => 
 					<ResultItem
 						key={result.title}
@@ -33,7 +33,7 @@ class Vermas extends Component {
 						videos={result.videos}
 						urls={result.urls}
 					/>)}
-				{ this.state.limit >= 10 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
+				{ this.state.limit >= 15 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
 			</div>
 			)
 	}

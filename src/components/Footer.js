@@ -1,5 +1,5 @@
 import React from 'react'
-import video from './img/vids/CONTACT.mp4';
+import video from './img/CONTACT.mp4';
 import { Spring } from 'react-spring'	;
 
 const Footer = () => {
