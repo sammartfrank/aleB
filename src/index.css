@@ -30,7 +30,7 @@ code {
 	color: white;
 	text-align:center;
 	height: 75vh;
-	padding-top: 18em;
+	padding-top: 15em;
 }
 .header h1 {
 	font-size:60px;
@@ -43,7 +43,7 @@ code {
 }
 .arr {
     color: white;
-    padding-top: 5em;
+    padding-top: 6em;
     padding-bottom: 9em;
     font-size: 16px;
     line-height: 1;
@@ -61,7 +61,8 @@ code {
 
 /*Job1 Section*****************INICIO********************************/
 .imags {
-	/padding:2.7em;
+    /padding:2.7em;
+    padding-bottom: 2em;
 }
 .media {
 	display:grid;
@@ -70,22 +71,24 @@ code {
 .vidios video {
 	width:100%;
 	margin:0 auto;
-	padding-bottom:1em;
+	padding-bottom:2em;
 }
 /*Job1 Section******************FIN*******************************/
 
 /*Preft / 2*************************INICIO********************************/
 .preft {
-	 color: white;
-	 font-family: Kameron, regular;
-	 padding-top: 18em;
-	 font-weight:350;
-	 width:80%;
-	 margin:0 auto;
+    color: white;
+    font-family: Kameron, regular;
+    line-height: 1.2em;
+    padding-top: 18em;
+    font-weight: 350;
+    width: 80%;
+    margin: 0 auto;
 }
 .preft h1 {
 	 font-size:3em;
-	 padding-top:.8em;
+     line-height: 1.2em;
+	 padding-top:.3em;
      text-align:center;
 
 
@@ -187,17 +190,19 @@ h1{
 .contact {
 background: black;
 }
-.ctx {
+.footer {
 	padding: 0;
 	color: white;
 	position: absolute;
 	left: 24%;
 	top: 33.7%;
 }
-.ctx h1 {
+.footer h1 {
 	font-size:2.5em;
+    font-family: Kameron, regular;
+
 }
-.ctx h3 {
+.footer h3 {
 	font-family: Kameron, bold;
 	font-size:2em;
 }
@@ -206,9 +211,19 @@ background: black;
 /*DESKTOP*************************INICIO***************************************/
 @media (min-width: 600px) {
 
+.header {
+padding-top: 17em;
+}
+
+.arr {
+padding-top: 7em;
+}
+
 .job, .job2, .job3 {
 	width:100%;
 	margin: 0 auto;
+    padding-bottom:1em;
+    /margin-right: 5em;
 }
 .job h1, .job2 h1, .job3 h1 {
 	padding-left: 30%;
@@ -227,7 +242,7 @@ background: black;
 		width:100%;
 	}
 .preft {
-	 padding-top: 16em;
+	 padding-top: 14em;
 	 font-size:20px;
 	 width:25%;
 	 margin:0 auto;
@@ -247,15 +262,16 @@ background: black;
 .vidios video {
 	width:80%;
 	margin:0 auto;
-	padding-bottom:1em;
+	padding-bottom:.5em;
 	text-align:none;
 }
 
 .imags {
 	/margin-top:.2em;
 	width:41.2vw;
-	padding:0;
+    padding-bottom:3em;
 }
+
 .item {
 				display: grid;
     grid-template-columns: 18% 12% 52% 10%;
@@ -284,13 +300,17 @@ a.animated-button{
 	top: 30%;
 }
 .footer h1 {
-	font-size: 4.5rem;
+	font-size: 3.5rem;
 }
 .footer h3 {
-	font-size:2.5rem;
+	font-size:2rem;
+    font-family: Kameron, bold;
+
 }
 .footer p {
 	font-size:1.4em;
+    font-family: Kameron, regular;
+
 }
 }
 /*DESKTOP*/

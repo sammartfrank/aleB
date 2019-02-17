@@ -15,9 +15,10 @@ class Pref extends Component {
 							from={{ opacity:0, transform: 'translateY(0)',  }}
 							to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'3'}}>
 								{props => <div style={props} className="preft">
-								<p>Projects below cover wider advertising aspects. They are brands created from scratch that involve naming, graphic ID, 
-									production, direction, editing, selling and delivering the project to a client.
-									Finally managing and creating communities on social media around each product.</p>
+								<p>Projects below communicate on different media channels and
+                                involve other disciplines: namings, graphic ID, 
+								production, direction, editing and planning of content
+                                for social media premieres and launches.</p>
 								</div>}
 					</Spring>
 				</div>

@@ -38,8 +38,8 @@ import I16 from './img/indie/Illustration/baitaly.jpg';
 var results = [
 
     {title:'GAME DEV', subtitle: 'I am currently working on my first big scoped game. At least for a one-person team.', imagenes: [], videos: [ElvisTurn,TankTurn]},
-    {title:'TOYS', subtitle: '', imagenes: [Toy1,Toy2,Toy3,Toy4,Toy5,Toy6], videos: []},
-    {title:'ILLUSTRATION', subtitle: 'Things can happen when i grab a pencil or an IPad', imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15,I16], videos: []},
+    {title:'TOYS', subtitle: 'Sometimes i like to feel something different from a mouse and keyboard. That\s when these come out.', imagenes: [Toy1,Toy2,Toy3,Toy4,Toy5,Toy6], videos: []},
+    {title:'ILLUSTRATION', subtitle: 'Stranger things can happen when i grab a pencil or an IPad', imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15,I16], videos: []},
 
     ];
 

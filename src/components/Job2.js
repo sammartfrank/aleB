@@ -37,8 +37,8 @@ import BoardFC from './img/rrss/FC/FirstChapter-Board.jpg';
 
 
 var results = [
-	{title:'KITCHEN ANGELS', subtitle: 'This project started with a naming that would keep cooking close to people, we drove that into a hand-drawn logo.', parraf:"", imagenes: [LogoLADLC,CharactersLADLC], videos: [OpeningLADLC,YTLADLC,IGLADLC,PremiereLADLC]},
-	{title:'NIETOTEST',subtitle:'-Nieto- stands for grandchildren. This project consists of a website that contains a customizable and printable memotest.', parraf:"The aim was to give tools to families and help them share with their grandparents, even if they are going through Alzheimer’s disease. ", imagenes: [LogoNT,CardsNT], videos: [VideoNT,ScreenNT]},
+	{title:'KITCHEN ANGELS', subtitle: 'This project started with a naming to keep cooking close to people, we drove that into a hand-drawn logo to kick off with the brand concept.', parraf:"", imagenes: [LogoLADLC,CharactersLADLC], videos: [OpeningLADLC,YTLADLC,IGLADLC,PremiereLADLC]},
+	{title:'NIETOTEST',subtitle:'-Nieto- stands for grandchildren. This project consists of a website that contains a customizable and printable memotest.', parraf:"The app was a tool for families to stay close to their grandparents during early stages of Alzheimer’s disease.", imagenes: [LogoNT,CardsNT], videos: [VideoNT,ScreenNT]},
 	{title:'FIRST CHAPTER', subtitle: 'This publishing house needed some kind of sales boost so we came up with First Chapter. Sampling in a category not yet used.', parraf:"", imagenes: [BoardFC], videos: [VideoFC]},
 	];
 
