@@ -217,13 +217,14 @@ padding-top: 17em;
 }
 
 .arr {
-padding-top: 7em;
+padding-top: 6.5em;
 }
 
 .job, .job2, .job3 {
 	width:100%;
 	margin: 0 auto;
     padding-bottom:1em;
+    padding-top:1em;
     /margin-right: 5em;
 }
 .job h1, .job2 h1, .job3 h1 {
@@ -243,7 +244,7 @@ padding-top: 7em;
 		width:100%;
 	}
 .preft {
-	 padding-top: 14em;
+	 padding-top: 13em;
 	 font-size:20px;
 	 width:25%;
 	 margin:0 auto;
@@ -265,17 +266,18 @@ padding-top: 7em;
 	margin:0 auto;
 	padding-bottom:.8em;
 	text-align:none;
+    position: center;
 }
 
 .imags {
 	/margin-top:.2em;
 	width:41.2vw;
-    padding-bottom:.8em;
+    padding-bottom:2em;
 }
 
 .item {
 				display: grid;
-    grid-template-columns: 18% 12% 52% 10%;
+    grid-template-columns: 10% 15% 52% 11%;
     grid-column-gap: 35px;
     grid-row-gap: 4px;
     justify-items: stretch;
