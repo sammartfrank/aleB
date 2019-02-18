@@ -16,9 +16,9 @@ class Pref extends Component {
 							to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'3'}}>
 								{props => <div style={props} className="preft">
 								<p>Projects below communicate on different media channels and
-                                involve other disciplines: namings, graphic ID, 
+								involve other disciplines: namings, graphic ID, 
 								production, direction, editing and planning of content
-                                for social media premieres and launches.</p>
+								for social media premieres and launches.</p>
 								</div>}
 					</Spring>
 				</div>
@@ -27,7 +27,7 @@ class Pref extends Component {
 					</div>
 			</div>
 		);
-	}
+	}	
 }
 
 export default Pref;

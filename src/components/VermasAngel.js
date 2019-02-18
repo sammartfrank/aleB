@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ResultItem from './ResultItem.js';
 
-class Vermas extends Component {
+class VermasAngel extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {
@@ -33,10 +33,10 @@ class Vermas extends Component {
 						videos={result.videos}
 						urls={result.urls}
 					/>)}
-				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
+				{this.state.limit >= 3 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
 			</div>
 			)
 	}
 }
-export default Vermas;
+export default VermasAngel;
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Vermas from './Vermas.js';
+import VermasAngel from './VermasAngel.js';
 
 // Angels Media
 import LogoLADLC from './img/rrss/LADLC/Logo.png';
 import CharactersLADLC from './img/rrss/LADLC/TurnAround.gif';
 import OpeningLADLC from './img/rrss/LADLC/Opening.mp4';
-import IGLADLC from './img/rrss/LADLC/IG.mov';
+// import IGLADLC from './img/rrss/LADLC/IG.mov';
 import YTLADLC from './img/rrss/LADLC/YT.mov';
 import PremiereLADLC from './img/rrss/LADLC/Premiere.mp4';
 
@@ -37,7 +37,7 @@ import BoardFC from './img/rrss/FC/FirstChapter-Board.jpg';
 
 
 var results = [
-	{title:'KITCHEN ANGELS', subtitle: 'This project started with a naming to keep cooking close to people, we drove that into a hand-drawn logo to kick off with the brand concept.', parraf:"", imagenes: [LogoLADLC,CharactersLADLC], videos: [OpeningLADLC,YTLADLC,IGLADLC,PremiereLADLC]},
+	{title:'KITCHEN ANGELS', subtitle: 'This project started with a naming to keep cooking close to people, we drove that into a hand-drawn logo to kick off with the brand concept.', parraf:"", imagenes: [LogoLADLC,CharactersLADLC], videos: [OpeningLADLC,YTLADLC,PremiereLADLC]},
 	{title:'NIETOTEST',subtitle:'-Nieto- stands for grandchildren. This project consists of a website that contains a customizable and printable memotest.', parraf:"The app was a tool for families to stay close to their grandparents during early stages of Alzheimer’s disease.", imagenes: [LogoNT,CardsNT], videos: [VideoNT,ScreenNT]},
 	{title:'FIRST CHAPTER', subtitle: 'This publishing house needed some kind of sales boost so we came up with First Chapter. Sampling in a category not yet used.', parraf:"", imagenes: [BoardFC], videos: [VideoFC]},
 	];
@@ -50,7 +50,7 @@ class JobIntegratedContent extends Component {
 	render() {
 		return (
 			<div className="job2">
-								<Vermas results={results}/>		
+								<VermasAngel results={results}/>		
 			</div>
 			)	
 	}

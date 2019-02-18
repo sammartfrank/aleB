@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import PropTypes from 'prop-types';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
+const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}, job) => {
 	return (
 			<div className="item">
 				<div></div>
@@ -15,7 +15,7 @@ const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
 				</div>
 				<div className="media">
 					<div className='vidios'>
-						{videos.length >= 3 && <div className="carvids">
+						{videos.length >= 3 && <div id="carruvids">
 							{<Carousel infiniteLoop showThumbs={false} interval={5000}  >
 										{videos.map(src=> <video key={id} controls src={src} alt="video"></video>)}
 							</Carousel>}

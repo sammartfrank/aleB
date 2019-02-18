@@ -13,9 +13,8 @@ body {
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  monospace;
 }
-
 /*//MOBILE*************************INICIO*********************************************/
 @keyframes MoveUpDown {
   0%, 100% {
@@ -24,7 +23,7 @@ code {
   50% {
     bottom:-35px;
   }
-}
+}          
 /*Header Section****************INICIO**********************************/
 .header {
 	color: white;
@@ -42,11 +41,11 @@ code {
 	font-family: Kameron, regular;
 }
 .arr {
-    color: white;
-    padding-top: 6em;
-    padding-bottom: 9em;
-    font-size: 16px;
-    line-height: 1;
+	color: white;
+	padding-top: 6em;
+	padding-bottom: 9em;
+	font-size: 16px;
+	line-height: 1;
 }
 #arrow {
 	font-family: Kameron, regular;
@@ -58,43 +57,37 @@ code {
 	left:47%;
 }
 /*Header Section*****************FIN******************************/
-
 /*Job1 Section*****************INICIO********************************/
 .imags {
-    /padding:2.7em;
-    padding-bottom: 2em;
+	padding-bottom: 2em;
 }
 .media {
 	display:grid;
 }
-
 .vidios video {
 	width:100%;
 	margin:0 auto;
 	padding-bottom:2em;
 }
 /*Job1 Section******************FIN*******************************/
-
-/*Preft / 2*************************INICIO********************************/
+/*Preft*************************INICIO********************************/
 .preft {
-    color: white;
-    font-family: Kameron, regular;
-    line-height: 1.2em;
-    padding-top: 18em;
-    font-weight: 350;
-    width: 80%;
-    margin: 0 auto;
+	color: white;
+	font-family: Kameron, regular;
+	line-height: 1.2em;
+	padding-top: 18em;
+	font-weight: 350;
+	width: 80%;
+	margin: 0 auto;
 }
 .preft h1 {
-	 font-size:3em;
-     line-height: 1.2em;
-	 padding-top:.3em;
-     text-align:center;
-
-
+	font-size:3em;
+	line-height: 1.2em;
+	padding-top:.3em;
+	text-align:center;
 }
-/*Preft / 2************************FIN*********************************/
-.carvids {
+/*Preft************************FIN*********************************/
+.carruvids {
 	padding: 2.5em;
 }
 .results {
@@ -102,18 +95,19 @@ code {
 	width:100%;
 }
 a.animated-button {
-    color: black;
-    font-size: 1em;
-    cursor: pointer;
-    display: block;
-    width: 3.8em;
-    border-radius: 100%;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin: 0 auto;
-    position: relative;
-    border: 2px solid black;
-    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	color: black;
+	font-size: 1.2em;
+	font-weight:750;
+	cursor: pointer;
+	display: block;
+	width: 3.8em;
+	border-radius: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 0 auto;
+	position: relative;
+	border: 2px solid black;
+	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 a.animated-button:hover {
 	color: white !important;
@@ -138,14 +132,33 @@ a.animated-button:before {
 	background: black;
 	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
-
+/*DEV BUTTON */
+.animated-buttondev {
+	color: white;
+	font-size: 1.2em;
+	font-weight:750;
+	cursor: pointer;
+	display: block;
+	width: 3.8em;
+	border-radius: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 0 auto;
+	position: relative;
+	border: 2px solid white;
+	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.animated-buttondev:hover {
+	color: black !important;
+	background-color: white;
+	text-shadow: none;
+}
 /*Job2 Section*******************INICIO******************************/
 	.job2 {
 		padding-bottom:5em;
 		padding-top:2em;
 	}
 /*Job2 Section********************FIN*****************************/
-
 /*//Genericos*/
 .job, .job2 {
 	background:white;
@@ -153,8 +166,8 @@ a.animated-button:before {
 }
 
 .job3 {
-    background: black;
-    color: white;
+	background: black;
+	color: white;
 }
 .job h1, .job2 h1, .job3 h1 {
 	text-align:left;
@@ -165,11 +178,11 @@ a.animated-button:before {
 }
 .job h3, .job2 h3, .job3 h3{
 	font-size:1.5em;
-    letter-spacing:.04em;
-    line-height:1em;
+ letter-spacing:.04em;
+	line-height:1em;
 	text-align:left;
 	font-family: Kameron, regular;
-    font-weight:800;
+	font-weight:800;
 	padding-top:1em;
 	padding-bottom:0.5em;
 	padding-left:1.7em;
@@ -177,7 +190,7 @@ a.animated-button:before {
 .job p, .job2 p, .job3 p {
 	padding:2.6em;
 	padding-top:0;
-    line-height:1.15;
+	line-height:1.15;
 	text-align: justify;
 	font-family: Kameron, regular;
 }
@@ -186,11 +199,7 @@ h1{
 	font-size:inherit;
 }
 /*//Genericos*/
-
 /*FOOTER*/
-.contact {
-background: black;
-}
 .footer {
 	padding: 0;
 	color: white;
@@ -200,8 +209,7 @@ background: black;
 }
 .footer h1 {
 	font-size:2.5em;
-    font-family: Kameron, regular;
-
+	font-family: 'Major Mono Display', monospace;
 }
 .footer h3 {
 	font-family: Kameron, bold;
@@ -211,43 +219,40 @@ background: black;
 
 /*DESKTOP*************************INICIO***************************************/
 @media (min-width: 800px) {
-
 .header {
 padding-top: 17em;
 }
-
 .arr {
-padding-top: 6.5em;
+	padding-top: 6.5em;
 }
-
 .job, .job2, .job3 {
 	width:100%;
 	margin: 0 auto;
-    padding-bottom:1em;
-    padding-top:1em;
-    /margin-right: 5em;
+ padding-bottom:1em;
+ padding-top:1em;
+ margin-right: 5em;
 }
 .job h1, .job2 h1, .job3 h1 {
 	padding-left: 30%;
 	font-size:2rem;
 }
-.job h3, .job2 h3, .job3 h3{
+.job h3, .job2 h3, .job3 h3 {
 	font-family: Kameron, regular;
 	font-weight: 800;
-    padding-top:3.2em;
+ padding-top:3.2em;
 	text-align:right;
 	z-index:1079;
 	}
-	.job p, .job2 p, .job3 p {
-		padding:0;
-		text-align:right;
-		width:100%;
-	}
+.job p, .job2 p, .job3 p {
+	padding:0;
+	text-align:right;
+	width:100%;
+}
 .preft {
-	 padding-top: 15em;
-	 font-size:20px;
-	 width:25%;
-	 margin:0 auto;
+	padding-top: 15em;
+	font-size:20px;
+	width:25%;
+	margin:0 auto;
 }
 .preft h1 {
 	padding-top:.5em;
@@ -266,31 +271,32 @@ padding-top: 6.5em;
 	margin:0 auto;
 	padding-bottom:.8em;
 	text-align:none;
-    position: center;
+ position: center;
 }
 
 .imags {
-	/margin-top:.2em;
+	margin-top:.2em;
 	width:41.2vw;
-    padding-bottom:2em;
+ padding-bottom:2em;
 }
-
 .item {
-				display: grid;
-    grid-template-columns: 10% 15% 52% 11%;
-    grid-column-gap: 35px;
-    grid-row-gap: 4px;
-    justify-items: stretch;
-    align-items: stretch;
-    margin: 0 auto;
+	display: grid;
+	grid-template-columns: 10% 15% 52% 11%;
+	grid-column-gap: 35px;
+	grid-row-gap: 4px;
+	justify-items: stretch;
+	align-items: stretch;
+	margin: 0 auto;
 }
-.carvids {
-	padding: 0.8em;
+#carruvids {
+	padding: 0;
+	width:80%;
+	height: auto;
 }
 .media {
-	margin: 0 auto;
 	padding-top:5em;
 	text-align:left;
+	height:auto;
 }
 a.animated-button{
 	margin-top:2em;
@@ -299,7 +305,7 @@ a.animated-button{
 	padding: 2em;
 	color: white;
 	position: absolute;
-	left: 35%;
+	left: 38%;
 	top: 30%;
 }
 .footer h1 {
@@ -307,13 +313,11 @@ a.animated-button{
 }
 .footer h3 {
 	font-size:2rem;
-    font-family: Kameron, bold;
-
+	font-family: Kameron, bold;
 }
 .footer p {
 	font-size:1.4em;
-    font-family: Kameron, regular;
-
+ font-family: Kameron, regular;
 }
 }
 /*DESKTOP*/

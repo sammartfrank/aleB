@@ -4,8 +4,8 @@ import './App.css';
 import Head from './components/Head.js';
 import Glow from './components/Glow.js';
 import JobTV from './components/JobTV.js';
-import Job2 from './components/Job2.js';
-import Job3 from './components/Job3.js';
+import JobIntegratedContent from './components/JobIntegratedContent.js';
+import JobSkillset from './components/JobSkillset.js';
 import Pref from './components/Pref.js';
 import Pref2 from './components/Pref2.js';
 import Footer from './components/Footer.js';
@@ -18,9 +18,9 @@ class App extends Component {
         <Glow />
           <JobTV />
         <Pref />
-          <Job2 />
+          <JobIntegratedContent />
         <Pref2 />
-          <Job3 />
+          <JobSkillset />
         <Footer />    
       </div>
     );

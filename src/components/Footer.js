@@ -4,8 +4,8 @@ import { Spring } from 'react-spring'	;
 
 const Footer = () => {
 	return (
-							<div>
-				<div className="" style={{position:'absolute', height:'100vh'}}>
+			<div>
+				<div style={{position:'absolute', height:'100vh'}}>
 					<div style={{background:'black'}}>
 						<Spring 
 								delay={3500}
