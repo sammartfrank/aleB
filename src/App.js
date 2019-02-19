@@ -16,11 +16,11 @@ class App extends Component {
       <div className="App">
         <Head />
         <Glow />
-          <JobTV />
+        <JobTV />
         <Pref />
-          <JobIntegratedContent />
+        <JobIntegratedContent />
         <Pref2 />
-          <JobSkillset />
+        <JobSkillset />
         <Footer />    
       </div>
     );

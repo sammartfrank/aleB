@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import arrow from './img/arw.png';
+import React from 'react';
 import { Spring } from 'react-spring';
 
 import video from './img/tv-print/BG.mp4';
 
-class Glow extends Component {
-
-	render() {
+function Glow() {
 		return (
 			<div>
 				<div className="container-fluid" style={{background:'rgba(0,0,0,0.7)', position:'absolute', height:'100vh'}}>
@@ -25,6 +22,5 @@ class Glow extends Component {
 			</div>
 		);
 	}
-}
 
 export default Glow;

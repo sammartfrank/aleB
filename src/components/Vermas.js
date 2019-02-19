@@ -25,15 +25,14 @@ class Vermas extends Component {
 				{!results && <div>No Jobs to display</div>}
 				{results && results.map(result => 
 					<ResultItem
-						key={result.title}
+						key={result.id}
 						title={result.title}
 						subtitle={result.subtitle}
 						parraf={result.parraf}
 						imagenes={result.imagenes}
 						videos={result.videos}
-						urls={result.urls}
 					/>)}
-				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" style={{width:"10em", borderRadius:'10%'}} onClick ={this.handleClose}>- Hide All</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
+				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
 			</div>
 			)
 	}

@@ -215,6 +215,14 @@ h1{
 	font-family: Kameron, bold;
 	font-size:2em;
 }
+.social {
+	padding-top:10em;
+}
+.social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
 /*FOOTER*/
 
 /*DESKTOP*************************INICIO***************************************/
@@ -302,11 +310,11 @@ a.animated-button{
 	margin-top:2em;
 }
 .footer {
-	padding: 2em;
-	color: white;
-	position: absolute;
-	left: 38%;
-	top: 30%;
+text-align:center;
+padding-top:3em;
+display:grid;
+position: absolute;
+left: 42.4%;
 }
 .footer h1 {
 	font-size: 3.5rem;
@@ -319,6 +327,7 @@ a.animated-button{
 	font-size:1.4em;
  font-family: Kameron, regular;
 }
+
 }
 /*DESKTOP*/
 

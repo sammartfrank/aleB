@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import VermasAngel from './VermasAngel.js';
 
 // Angels Media
@@ -37,26 +37,20 @@ import BoardFC from './img/rrss/FC/FirstChapter-Board.jpg';
 
 
 var results = [
-	{title:'KITCHEN ANGELS', subtitle: 'This project is a TV-show for Food Network channel. It involved every stage of the marketing spectrum. We started with a hand-drawn logo and design of characters.', parraf:"", imagenes: [LogoLADLC,CharactersLADLC], videos: []},
-    {title:'', subtitle: 'Produced an opening to kick off with the brand concept and for maximum brand impact.', parraf:"", imagenes: [], videos: [OpeningLADLC]},
-    {title:'', subtitle: 'Instagram and Facebook were programmed to feed the YouTube channel with subscribers. Media was synched with air premiere schedule. -- Visit Instagram profile --Visit YouTube channel', parraf:"", imagenes: [], videos: [YTLADLC,IGLADLC, PremiereLADLC]},
-    {title:'', subtitle: 'Produced content for all media channels', parraf:"", imagenes: [LADLC1,LADLC2,LADLC3,LADLC4,LADLC5,LADLC6,LADLC7,LADLC8,LADLC9,LADLC10,LADLC11,LADLC12,LADLC13], videos: []},
-    {title:'NIETOTEST',subtitle:'-Nieto- stands for grandchildren. This project consists of a website that contains a customizable and printable memotest.', parraf:"The app was a tool for families to stay close to their grandparents during early stages of Alzheimer’s disease.", imagenes: [LogoNT,CardsNT], videos: [VideoNT,ScreenNT]},
-	{title:'FIRST CHAPTER', subtitle: 'This publishing house needed some kind of sales boost so we came up with First Chapter. Sampling in a category not yet used.', parraf:"", imagenes: [BoardFC], videos: [VideoFC]},
+	{id:16, title:'KITCHEN ANGELS', subtitle: 'This project is a TV-show for Food Network channel. It involved every stage of the marketing spectrum. We started with a hand-drawn logo and design of characters.', parraf:"", imagenes: [LogoLADLC,CharactersLADLC], videos: []},
+	{id:17, title:'', subtitle: 'Produced an opening to kick off with the brand concept and for maximum brand impact.', parraf:"", imagenes: [], videos: [OpeningLADLC]},
+	{id:18, title:'', subtitle: 'Instagram and Facebook were programmed to feed the YouTube channel with subscribers. Media was synched with air premiere schedule. -- Visit Instagram profile --Visit YouTube channel', parraf:"", imagenes: [], videos: [YTLADLC,IGLADLC,PremiereLADLC]},
+	{id:19, title:'', subtitle: 'Produced content for all media channels', parraf:"", imagenes: [LADLC1,LADLC2,LADLC3,LADLC4,LADLC5,LADLC6,LADLC7,LADLC8,LADLC9,LADLC10,LADLC11,LADLC12,LADLC13], videos: []},
+	{id:20, title:'NIETOTEST',subtitle:'-Nieto- stands for grandchildren. This project consists of a website that contains a customizable and printable memotest.', parraf:"The app was a tool for families to stay close to their grandparents during early stages of Alzheimer’s disease.", imagenes: [LogoNT,CardsNT], videos: [VideoNT,ScreenNT]},
+	{id:21, title:'FIRST CHAPTER', subtitle: 'This publishing house needed some kind of sales boost so we came up with First Chapter. Sampling in a category not yet used.', parraf:"", imagenes: [BoardFC], videos: [VideoFC]},
 	];
 
-
-class JobIntegratedContent extends Component {
-	constructor(props) {
-		super(props);
-	}
-	render() {
+function JobIntegratedContent() {
 		return (
 			<div className="job2">
-								<VermasAngel results={results}/>		
+					<VermasAngel results={results}/>		
 			</div>
 			)	
 	}
-}
 
 export default JobIntegratedContent;

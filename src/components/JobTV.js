@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 // 1. Road Safety Media
 import graficaSv1 from './img/tv-print/RoadSafety/1.jpg';
@@ -68,34 +68,29 @@ import videoBonobon2 from './img/tv-print/Bonobon/wheel.mp4';
 import Vermas from './Vermas.js';
 
 var results = [
-	{title:'ROAD SAFETY', subtitle: 'Aim of this campaign was to lower accident death ratio on Argentina\'s roads. We based on the insight "You are alive to tell it". We covered both optimist and pesimist sides of car accidents. Mainly, you can stay alive by using belt or helmet, but also, talk about negligence in human behaviour in crashes.', parraf:"", imagenes: [graficaSv1,graficaSv2,graficaSv3,graficaSv4,graficaSv5], videos: [videoSv1,videoSv2]},
-	{title:'TENTACIONES COOKIES', subtitle:'The brand wanted to launch a limited edition of already known Tentaciones with a new chocolate filling, so we created this "Yes, but NO" concept execution to make them more irresistible.',parraf:"", imagenes:[], videos:[videoMonsi]},
-	{title:'FIAT DOGS', subtitle: 'Client needed to advertise their new Diesel engine with less fuel consumption and they wanted to do it through one of their utilitaries: Fiat Strada. The concept works on the product advantage with impact and sense of humor.', parraf:"", imagenes: [graficaBobby,graficaLisa],},
- {title:'FIAT BAGAGGE', subtitle: 'Same product as previous work, but with a different benefit to communicate. Now we had to say you can buy this car with double cabin, so it\'s not only for carrying tools, but actually people. So we were prompted to swing Strada\'s working consumer to a more recreative one.',parraf:"", imagenes: [graficaAmigos,graficaFamilia,graficaChicas], videos: [],},
- {title:'PIM', subtitle: 'Client asked us to launch a new payment platform that works as a virtual wallet and can be used with any celphone, even if it\'s not a smartphone. So we worked on a looping system of pieces that made clear how simple the system is.', parraf:"", imagenes: [], videos: [videoPim1,videoPim2,videoPim3,videoPim4,videoPim5]},
-	{title:'VOLKSWAGEN', subtitle:'The client briefed us with 3 brand values they wanted to highlight in and ID campaign in order to feel closer to their consumers and therefore strengthen the emotional link with the brand.',parraf:"", imagenes:[graficaVw1,graficaVw2,graficaVw3], videos:[videoVw1]},
-	{title:'TRICK', subtitle:'Michel Torino asked us to boost the wine\'s perception in point of sales by remembering people this wine has been around for its quality. ', parraf:"", imagenes:[], videos:[videoMT]},
-	{title:'DISARM', subtitle: 'Aim of this campaign was to lower accident death ratio on Argentina\'s households. Asking people to get rid of their guns by contrasting them to common house stuff.', parraf:"", imagenes: [graficaDesarme1,graficaDesarme2], videos: []},
-	{title:'THE END', subtitle:'Something simple as flea medicine for dogs, the client wanted to be very clear about the power of their product among others. A satiric execution let us tell all the product benefits through humor and aesthetic impact.', parraf:"", imagenes:[], videos:[videoProtech]},
-	{title:'FRIZZE', subtitle: 'The brand was lauching their Facebook page so we were prompted to boost it\'s awareness. We created an -organization- for youngsters to join and be part of this movement called JODA, which stands for PARTY in english. Members could create their own member card and use it in brand exclusive events.',parraf:"", imagenes: [], videos: [videoFrizze]},
-	{title:'VOLKSWAGEN SURAN', subtitle: 'We needed to position the product as a family vehicle so we stood on the consumers territory to empathize and capitalize its lifestyle with humor.',parraf:"", imagenes: [], videos: [videoSuran]},
-	{title:'SUTER', subtitle: 'This product has been around for some time now in Argentina\'s wine market. Client needed to boost awareness in their product trajectory to compete with newer wines on the segment.',parraf:"", imagenes: [], videos: [videoSuter1,videoSuter2]},
-	{title:'ZORRO', subtitle: 'A new edition of Gol Trend came out on the market and we were asked to show it as a faithful companion to youngsters nightlife.',parraf:"", imagenes: [], videos: [videoZorro]},
-	{title:'VOLKSWAGEN TRUCKS', subtitle: 'This product has been around for some time now in Argentina\'s wine market. Client needed to boost awareness in its trajectory to compete with newer wines on the segment.',parraf:"", imagenes: [graficaTrucks1,graficaTrucks2], videos: []},
-	{title:'BONOBON', subtitle: 'Sorry for video quality XD, these were my firsts :3 We worked for this brand, which has strong emotional values, for special dates such as Mother\'s day or Holidays.',parraf:"", imagenes: [], videos: [videoBonobon1,videoBonobon2]},
+	{id:1, title:'ROAD SAFETY', subtitle: 'Aim of this campaign was to lower accident death ratio on Argentina\'s roads. We based on the insight "You are alive to tell it". We covered both optimist and pesimist sides of car accidents. Mainly, you can stay alive by using belt or helmet, but also, talk about negligence in human behaviour in crashes.', parraf:"", imagenes: [graficaSv1,graficaSv2,graficaSv3,graficaSv4,graficaSv5], videos: [videoSv1,videoSv2]},
+	{id:2, title:'TENTACIONES COOKIES', subtitle:'The brand wanted to launch a limited edition of already known Tentaciones with a new chocolate filling, so we created this "Yes, but NO" concept execution to make them more irresistible.',parraf:"", imagenes:[], videos:[videoMonsi]},
+	{id:3, title:'FIAT DOGS', subtitle: 'Client needed to advertise their new Diesel engine with less fuel consumption and they wanted to do it through one of their utilitaries: Fiat Strada. The concept works on the product advantage with impact and sense of humor.', parraf:"", imagenes: [graficaBobby,graficaLisa],},
+ {id:4, title:'FIAT BAGAGGE', subtitle: 'Same product as previous work, but with a different benefit to communicate. Now we had to say you can buy this car with double cabin, so it\'s not only for carrying tools, but actually people. So we were prompted to swing Strada\'s working consumer to a more recreative one.',parraf:"", imagenes: [graficaAmigos,graficaFamilia,graficaChicas], videos: [],},
+ {id:5, title:'PIM', subtitle: 'Client asked us to launch a new payment platform that works as a virtual wallet and can be used with any celphone, even if it\'s not a smartphone. So we worked on a looping system of pieces that made clear how simple the system is.', parraf:"", imagenes: [], videos: [videoPim1,videoPim2,videoPim3,videoPim4,videoPim5]},
+	{id:6, title:'VOLKSWAGEN', subtitle:'The client briefed us with 3 brand values they wanted to highlight in and ID campaign in order to feel closer to their consumers and therefore strengthen the emotional link with the brand.',parraf:"", imagenes:[graficaVw1,graficaVw2,graficaVw3], videos:[videoVw1]},
+	{id:7, title:'TRICK', subtitle:'Michel Torino asked us to boost the wine\'s perception in point of sales by remembering people this wine has been around for its quality. ', parraf:"", imagenes:[], videos:[videoMT]},
+	{id:8, title:'DISARM', subtitle: 'Aim of this campaign was to lower accident death ratio on Argentina\'s households. Asking people to get rid of their guns by contrasting them to common house stuff.', parraf:"", imagenes: [graficaDesarme1,graficaDesarme2], videos: []},
+	{id:9, title:'THE END', subtitle:'Something simple as flea medicine for dogs, the client wanted to be very clear about the power of their product among others. A satiric execution let us tell all the product benefits through humor and aesthetic impact.', parraf:"", imagenes:[], videos:[videoProtech]},
+	{id:10, title:'FRIZZE', subtitle: 'The brand was lauching their Facebook page so we were prompted to boost it\'s awareness. We created an -organization- for youngsters to join and be part of this movement called JODA, which stands for PARTY in english. Members could create their own member card and use it in brand exclusive events.',parraf:"", imagenes: [], videos: [videoFrizze]},
+	{id:11, title:'VOLKSWAGEN SURAN', subtitle: 'We needed to position the product as a family vehicle so we stood on the consumers territory to empathize and capitalize its lifestyle with humor.',parraf:"", imagenes: [], videos: [videoSuran]},
+	{id:12, title:'SUTER', subtitle: 'This product has been around for some time now in Argentina\'s wine market. Client needed to boost awareness in their product trajectory to compete with newer wines on the segment.',parraf:"", imagenes: [], videos: [videoSuter1,videoSuter2]},
+	{id:13, title:'ZORRO', subtitle: 'A new edition of Gol Trend came out on the market and we were asked to show it as a faithful companion to youngsters nightlife.',parraf:"", imagenes: [], videos: [videoZorro]},
+	{id:14, title:'VOLKSWAGEN TRUCKS', subtitle: 'This product has been around for some time now in Argentina\'s wine market. Client needed to boost awareness in its trajectory to compete with newer wines on the segment.',parraf:"", imagenes: [graficaTrucks1,graficaTrucks2], videos: []},
+	{id:15, title:'BONOBON', subtitle: 'Sorry for video quality XD, these were my firsts :3 We worked for this brand, which has strong emotional values, for special dates such as Mother\'s day or Holidays.',parraf:"", imagenes: [], videos: [videoBonobon1,videoBonobon2]},
 ];
 
-class JobTV extends Component {
-	constructor(props){
-		super(props);
-	}
-	render() {
+function JobTV() {
 		return (
 			<div className="job">
 					<Vermas results={results}/>
 			</div>
 		)	
 	}
-}
 
 export default JobTV;

@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
-import arrow from './img/arw.png';
+import React from 'react';
 import { Spring } from 'react-spring';
 
 import video from './img/indie/BG.mp4';
 
-class Pref2 extends Component {
-
-	render() {
+function Pref2() {
 		return (
 			<div>
 				<div className="container-fluid" style={{background:'rgba(0,0,0,0.7)', position:'absolute', height:'100vh'}}>
@@ -25,6 +22,5 @@ class Pref2 extends Component {
 			</div>
 		);
 	}
-}
 
 export default Pref2;

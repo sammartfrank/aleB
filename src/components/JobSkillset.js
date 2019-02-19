@@ -1,14 +1,10 @@
-import React, { Component} from 'react'
+import React from 'react'
 import VermasDev from './VermasDev.js';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // GameDev Media
 import ElvisTurn from './img/indie/GameDev/ElvisTurn.mp4'; 
 import TankTurn from './img/indie/GameDev/TankTurn.mp4'; 
 import SkinnyTurn from './img/indie/GameDev/SkinnyTurn.mp4'; 
-
-
 // Toys Media
 import Toy1 from './img/indie/Toys/1.jpg'; 
 import Toy2 from './img/indie/Toys/2.JPG'; 
@@ -34,27 +30,21 @@ import I13 from './img/indie/Illustration/Gallery/walter.PNG';
 
 import I14 from './img/indie/Illustration/office.gif'; 
 import I15 from './img/indie/Illustration/misc-1.jpg'; 
-import I16 from './img/indie/Illustration/baitaly.jpg'; 
 
 
 var results = [
-	{title:'GAME DEV', subtitle: 'I work with Unity3D and Blender to create characters, worlds and currently developing a game as an indie.', parraf:"", imagenes: [], videos: [ElvisTurn,TankTurn,SkinnyTurn]},
-	{title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", imagenes: [Toy1,Toy2,Toy3,Toy4,Toy5,Toy6], videos: []},
-	{title:'ILLUSTRATION', subtitle: 'Stranger things happen when i grab a pencil or an IPad', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15], videos: []},
+	{id:22, title:'GAME DEV', subtitle: 'I work with Unity3D and Blender to create characters, worlds and currently developing a game as an indie.', parraf:"", imagenes: [], videos: [ElvisTurn,TankTurn,SkinnyTurn]},
+	{id:23, title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", imagenes: [Toy1,Toy2,Toy3,Toy4,Toy5,Toy6], videos: []},
+	{id:24, title:'ILLUSTRATION', subtitle: 'Stranger things happen when i grab a pencil or an IPad', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15], videos: []},
 ];
 
 
-class JobSkillset extends Component {
-	constructor(props) {
-		super(props);
-	}
-	render() {
+function JobSkillset() {
 		return (
 			<div className="job3">
 					<VermasDev results={results}/>
 			</div>
 		)
-	}
-}
+	};
 
 export default JobSkillset;

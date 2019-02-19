@@ -16,15 +16,20 @@ const Footer = () => {
 											<p>ale.barredo@gmail.com</p>
 											<h3>Call</h3>
 											<p>54 9 11 55771850</p>
-                                            <h3>Stick Around</h3>
-                                            <p>Twitter</p>
-                                            <p>Facebook</p>
-                                            <p>Instagram</p>
-
+											<div className="social">
+												<h3>Stick Arround</h3>
+												<ul>
+													<li>
+														<a href=""><img src="" alt=""/>Insta</a>
+														<a href=""><img src="" alt=""/>Face</a>
+														<a href=""><img src="" alt=""/>Behance</a>
+													</li>
+												</ul>
+											</div>
 									</div>}
 						</Spring>
-							<div style={{width: '100vw', height: '100vh',position: 'static', top: '0px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
-		 					<video src={video} autoPlay muted loop style={{width:'15%', height:'15%', objectFit: 'fit'}}/>
+							<div style={{width: '100vw', height: '100vh',position: 'static', top: '10px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
+		 					<video src={video} autoPlay muted loop style={{width:'20%', height:'20%', objectFit: 'fit', paddingTop:'3em'}}/>
 							</div>
 						</div>
 					</div>

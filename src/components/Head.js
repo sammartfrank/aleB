@@ -5,7 +5,6 @@ import { Spring } from 'react-spring';
 import video from './img/HOME.mp4';
 
 class Head extends Component {
-
 	componentDidMount() {
 		var typer = {
     arrWords: ["30 yo.  ", "Thinking  ", "Filming  ", "Developing  ", "3D Modeling  ", "Thinking some more  ", "Modern skill-set  ", "Buenos Aires  ", "Gamer  ", "<3 Cooking  "],
@@ -33,7 +32,7 @@ class Head extends Component {
             this.el.innerHTML = this.word;
             this.animation = setTimeout(this.forward.bind(typer), this.timeAnimationDelete);
         }
-        if (this.word == this.selectWord) {
+        if (this.word === this.selectWord) {
             this.timer = true;
 
         } else if (this.word === "") {
@@ -45,7 +44,6 @@ class Head extends Component {
  };
  typer.forward();
 	}
-
 	render() {
 		return (
 			<div className="container-fluid" id="start" style={{display:'static'}}>
@@ -78,7 +76,7 @@ class Head extends Component {
 							to={{opacity:1, transform: 'translateY(0)',}}
 						>{props => <div style={props} id="arrow">
 									<p>CHECK OUT<br/><strong>MY WORK</strong></p>
-									<img src={arrow} id="ok" />
+									<img src={arrow} alt="arrow" id="ok" />
 								</div>}
 				</Spring>
 			</div>

@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import PropTypes from 'prop-types';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}, job) => {
+const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
 	return (
 			<div className="item">
 				<div></div>
@@ -15,19 +15,19 @@ const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}, job) => {
 				</div>
 				<div className="media">
 					<div className='vidios'>
-						{videos.length >= 3 && <div id="carruvids">
+						{videos.length >= 5 && <div id="carruvids">
 							{<Carousel infiniteLoop showThumbs={false} interval={5000}  >
 										{videos.map(src=> <video key={id} controls src={src} alt="video"></video>)}
 							</Carousel>}
 						</div>}
-							{videos.length <3 && <div>
-								{videos.map(src=> <video  key={id} className="colvids" src={src} controls></video> )}
+							{videos.length <=3 && <div>
+								{videos.map(src=> <video  key={src} className="colvids" src={src} alt="video" controls></video> )}
 							</div>}
 					</div>
 					<div className="imags">
 								{imagenes.length > 0 && <div>
 								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
-												{imagenes.map(src => <img  key={id} src={src} alt="Seguridad Vial"/>)}
+												{imagenes.map(src => <img  key={src} src={src} alt="Seguridad Vial"/>)}
 									</Carousel>}
 								</div>}
 					</div>
