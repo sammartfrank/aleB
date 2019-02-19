@@ -6,6 +6,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // GameDev Media
 import ElvisTurn from './img/indie/GameDev/ElvisTurn.mp4'; 
 import TankTurn from './img/indie/GameDev/TankTurn.mp4'; 
+import SkinnyTurn from './img/indie/GameDev/SkinnyTurn.mp4'; 
+
 
 // Toys Media
 import Toy1 from './img/indie/Toys/1.jpg'; 
@@ -36,9 +38,9 @@ import I16 from './img/indie/Illustration/baitaly.jpg';
 
 
 var results = [
-	{title:'GAME DEV', subtitle: 'I am currently working on my first big scoped game. At least for a one-person team.', parraf:"", imagenes: [], videos: [ElvisTurn,TankTurn]},
-	{title:'TOYS', subtitle: 'Sometimes i like to feel something different from a mouse and keyboard. That\s when these come out.', parraf:"", imagenes: [Toy1,Toy2,Toy3,Toy4,Toy5,Toy6], videos: []},
-	{title:'ILLUSTRATION', subtitle: 'Stranger things can happen when i grab a pencil or an IPad', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15], videos: []},
+	{title:'GAME DEV', subtitle: 'I work with Unity3D and Blender to create characters, worlds and currently developing a game as an indie.', parraf:"", imagenes: [], videos: [ElvisTurn,TankTurn,SkinnyTurn]},
+	{title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", imagenes: [Toy1,Toy2,Toy3,Toy4,Toy5,Toy6], videos: []},
+	{title:'ILLUSTRATION', subtitle: 'Stranger things happen when i grab a pencil or an IPad', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15], videos: []},
 ];
 
 

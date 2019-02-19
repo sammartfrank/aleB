@@ -12,15 +12,19 @@ const Footer = () => {
 								from={{ opacity:0, transform: 'translateY(0)',zIndex:'1045'  }}
 								to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'1'}}>
 									{props => <div style={props} className="footer">
-											<h1>contAct</h1>
 											<h3>Write</h3>
-											<p>alebarredo@gmail.com</p>
+											<p>ale.barredo@gmail.com</p>
 											<h3>Call</h3>
-											<p>54 11 1555771850</p>
+											<p>54 9 11 55771850</p>
+                                            <h3>Stick Around</h3>
+                                            <p>Twitter</p>
+                                            <p>Facebook</p>
+                                            <p>Instagram</p>
+
 									</div>}
 						</Spring>
 							<div style={{width: '100vw', height: '100vh',position: 'static', top: '0px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
-		 					<video src={video} autoPlay muted loop style={{width:'100%', height:'100%', objectFit: 'fit'}}/>
+		 					<video src={video} autoPlay muted loop style={{width:'15%', height:'15%', objectFit: 'fit'}}/>
 							</div>
 						</div>
 					</div>
