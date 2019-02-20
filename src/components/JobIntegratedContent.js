@@ -5,8 +5,8 @@ import VermasAngel from './VermasAngel.js';
 import LogoLADLC from './img/rrss/LADLC/Logo.png';
 import CharactersLADLC from './img/rrss/LADLC/TurnAround.gif';
 import OpeningLADLC from './img/rrss/LADLC/Opening.mp4';
-import IGLADLC from './img/rrss/LADLC/IG.mov';
-import YTLADLC from './img/rrss/LADLC/YT.mov';
+import IGLADLC from './img/rrss/LADLC/IG.mp4';
+import YTLADLC from './img/rrss/LADLC/YT.mp4';
 import PremiereLADLC from './img/rrss/LADLC/Premiere.mp4';
 
 import LADLC1 from './img/rrss/LADLC/Gallery/1-B2B.jpg';
@@ -28,7 +28,7 @@ import LADLC13 from './img/rrss/LADLC/Gallery/cheesecake.jpg';
 import LogoNT from './img/rrss/NT/Logo.gif';
 import CardsNT from './img/rrss/NT/Cards.gif';
 import VideoNT from './img/rrss/NT/Nietotest.mp4';
-import ScreenNT from './img/rrss/NT/ScreenRecord.mov';
+import ScreenNT from './img/rrss/NT/ScreenRecord.mp4';
 
 // First Chapter Media
 import VideoFC from './img/rrss/FC/FirstChapter.mp4';

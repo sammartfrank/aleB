@@ -6,12 +6,15 @@ import ElvisTurn from './img/indie/GameDev/ElvisTurn.mp4';
 import TankTurn from './img/indie/GameDev/TankTurn.mp4'; 
 import SkinnyTurn from './img/indie/GameDev/SkinnyTurn.mp4'; 
 // Toys Media
-import Toy1 from './img/indie/Toys/1.jpg'; 
-import Toy2 from './img/indie/Toys/2.JPG'; 
-import Toy3 from './img/indie/Toys/3.jpg'; 
-import Toy4 from './img/indie/Toys/4.JPG'; 
-import Toy5 from './img/indie/Toys/5.jpg';
-import Toy6 from './img/indie/Toys/6.gif'; 
+import Pill1 from './img/indie/Toys/pill-1.jpg'; 
+import Pill2 from './img/indie/Toys/pill-2.JPG'; 
+import Pill3 from './img/indie/Toys/pill-3.jpg'; 
+import Pill4 from './img/indie/Toys/pill-4.JPG'; 
+import Yoyo from './img/indie/Toys/yoyo.jpg';
+import YuckFou from './img/indie/Toys/yuckfou.jpg';
+import Faulty from './img/indie/Toys/faulty.jpg'; 
+import X32 from './img/indie/Toys/x32.jpg';
+import LittleOne from './img/indie/Toys/LittleOne.gif'; 
 
 // Illustration Media
 import I1 from './img/indie/Illustration/Gallery/buli.PNG';
@@ -34,7 +37,7 @@ import I15 from './img/indie/Illustration/misc-1.jpg';
 
 var results = [
 	{id:22, title:'GAME DEV', subtitle: 'I work with Unity3D and Blender to create characters, worlds and currently developing a game as an indie.', parraf:"", imagenes: [], videos: [ElvisTurn,TankTurn,SkinnyTurn]},
-	{id:23, title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", imagenes: [Toy1,Toy2,Toy3,Toy4,Toy5,Toy6], videos: []},
+	{id:23, title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", imagenes: [Pill1,Pill2,Pill3,Pill4,Yoyo,YuckFou,Faulty,X32,LittleOne], videos: []},
 	{id:24, title:'ILLUSTRATION', subtitle: 'Stranger things happen when i grab a pencil or an IPad', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15], videos: []},
 ];
 

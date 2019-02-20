@@ -25,7 +25,7 @@ const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
 							</div>}
 					</div>
 					<div className="imags">
-								{imagenes.length > 0 && <div>
+								{imagenes.length >= 4 && <div>
 								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
 												{imagenes.map(src => <img  key={src} src={src} alt="Seguridad Vial"/>)}
 									</Carousel>}
