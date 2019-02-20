@@ -22,7 +22,8 @@ class VermasDev extends Component {
 		const results = this.props.results.slice(0, this.state.limit);
 		return (
 			<div className="results">
-				{results && results.map(result => 
+				{results && results.map(result =>
+					
 					<ResultItem
 						key={result.id}
 						title={result.title}
