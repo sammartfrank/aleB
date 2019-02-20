@@ -23,7 +23,6 @@ class VermasDev extends Component {
 		return (
 			<div className="results">
 				{results && results.map(result =>
-					
 					<ResultItem
 						key={result.id}
 						title={result.title}

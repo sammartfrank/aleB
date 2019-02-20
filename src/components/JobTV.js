@@ -91,6 +91,6 @@ function JobTV() {
 					<Vermas results={results}/>
 			</div>
 		)	
-	}
+	} 	
 
 export default JobTV;

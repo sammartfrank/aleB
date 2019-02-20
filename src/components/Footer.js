@@ -1,5 +1,11 @@
 import React from 'react'
 import video from './img/CONTACT.mp4';
+import fb1 from './img/rs/FB.png'
+import fb2 from './img/rs/FB-hover.png'
+import ig1 from './img/rs/IG.png'
+import ig2 from './img/rs/IG-hover.png'
+import tw1 from './img/rs/TW.png'
+import tw2 from './img/rs/TW-hover.png'
 import { Spring } from 'react-spring'	;
 
 const Footer = () => {
@@ -20,9 +26,9 @@ const Footer = () => {
 												<h3>Stick Arround</h3>
 												<ul>
 													<li>
-														<a href=""><img src="" alt=""/>Insta</a>
-														<a href=""><img src="" alt=""/>Face</a>
-														<a href=""><img src="" alt=""/>Behance</a>
+														<a href="https://www.instagram.com/ale.barredo/?hl=es-la" target="_blank"><img src={ig1} alt="Instagram"/></a>
+														<a href="https://www.facebook.com/ale3arredo"  target="_blank"><img src={fb1} alt="Facebook"/></a>
+														<a href="https://twitter.com/dalemonodalex"  target="_blank"><img src={tw1} alt="twitter"/></a>
 													</li>
 												</ul>
 											</div>
