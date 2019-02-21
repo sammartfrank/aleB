@@ -19,11 +19,11 @@ const Footer = () => {
 								to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'1'}}>
 									{props => <div style={props} className="footer">
 											<h3>Write</h3>
-											<p>ale.barredo@gmail.com</p>
+											<a href=""><p>ale.barredo@gmail.com</p></a>
 											<h3>Call</h3>
-											<p>54 9 11 55771850</p>
+											<p>+54 9 11 55771850</p>
 											<div className="social">
-												<h3>Stick Arround</h3>
+												<h3>Stick Around</h3>
 												<ul>
 													<li>
 														<a href="https://www.instagram.com/ale.barredo/?hl=es-la" target="_blank"><img src={ig1} alt="Instagram"/></a>
@@ -35,7 +35,7 @@ const Footer = () => {
 									</div>}
 						</Spring>
 							<div style={{width: '100vw', height: '100vh',position: 'static', top: '10px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
-		 					<video src={video} autoPlay muted loop style={{width:'20%', height:'20%', objectFit: 'fit', paddingTop:'3em'}}/>
+		 					<video src={video} autoPlay muted loop style={{width:'18%', height:'18%', objectFit: 'fit', marginTop:'6em'}}/>
 							</div>
 						</div>
 					</div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ResultItem from './ResultItem.js';
+import ResultItemDev from './ResultItemDev.js';
 
 class VermasDev extends Component {
 	constructor(props) {
@@ -23,13 +23,14 @@ class VermasDev extends Component {
 		return (
 			<div className="results">
 				{results && results.map(result =>
-					<ResultItem
+					<ResultItemDev
 						key={result.id}
 						title={result.title}
 						subtitle={result.subtitle}
 						parraf={result.parraf}
 						imagenes={result.imagenes}
 						videos={result.videos}
+						gallery={result.gallery}
 					/>)}
 				{this.state.limit >=	 3 ? <a className="btn btn-md animated-buttondev" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-buttondev" onClick={this.handleOnVerMas}>+</a>}
 			</div>

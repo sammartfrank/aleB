@@ -46,7 +46,7 @@ class Head extends Component {
 	}
 	render() {
 		return (
-			<div className="container-fluid" id="start" style={{display:'static'}}>
+			<div className="container-fluid" id="start" style={{background:'rgba(255,153,51,0.2)', position:'static', height:'100vh'}}>
 			 <div className="header">
 					<div style={{width: '100vw', height: '100%',position: 'fixed', top: '0px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
   				<video src={video} autoPlay loop style={{width:'100vw', height:'100%', objectFit: 'cover'}}/>

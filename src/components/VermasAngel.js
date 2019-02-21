@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ResultItem from './ResultItem.js';
+import ResultItemIC from './ResultItemIC.js';
 
 class VermasAngel extends Component {
 	constructor(props) {
@@ -24,7 +24,7 @@ class VermasAngel extends Component {
 			<div className="results">
 				{!results && <div>No Jobs to display</div>}
 				{results && results.map(result => 
-					<ResultItem
+					<ResultItemIC
 						key={result.title}
 						title={result.title}
 						subtitle={result.subtitle}

@@ -209,6 +209,7 @@ h1{
 	position: absolute;
 	left: 24%;
 	top: 33.7%;
+	line-height: 0;
 }
 .footer h1 {
 	font-size:2.5em;
@@ -311,7 +312,7 @@ a.animated-button{
 }
 .footer {
 text-align:center;
-padding-top:3em;
+padding-top:2.5em;
 display:grid;
 position: absolute;
 left: 42.4%;
@@ -326,9 +327,11 @@ left: 42.4%;
 .footer p {
 	font-size:1.4em;
  font-family: Kameron, regular;
+	margin-bottom:1.5em;
+
 }
 .social {
-	padding-top:4em;
+	padding-top:0.8em;
 }
 }
 /*DESKTOP*/

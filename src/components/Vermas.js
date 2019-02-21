@@ -18,20 +18,26 @@ class Vermas extends Component {
 			limit: 1,
 		})
 	}
+	handleScroll = () => {
+		this.refs.it.scrollIntoView();
+	}
 	render() {
 		const results = this.props.results.slice(0, this.state.limit);
 		return (
 			<div className="results">
 				{!results && <div>No Jobs to display</div>}
 				{results && results.map(result => 
-					<ResultItem
-						key={result.id}
-						title={result.title}
-						subtitle={result.subtitle}
-						parraf={result.parraf}
-						imagenes={result.imagenes}
-						videos={result.videos}
-					/>)}
+					<div ref="it">
+						<ResultItem
+							key={result.id}
+							title={result.title}
+							subtitle={result.subtitle}
+							parraf={result.parraf}
+							imagenes={result.imagenes}
+							videos={result.videos}
+						/>
+					</div>
+				)}		
 				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
 			</div>
 			)

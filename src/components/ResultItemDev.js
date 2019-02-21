@@ -4,9 +4,9 @@ import { Carousel } from 'react-responsive-carousel';
 import PropTypes from 'prop-types';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
+const ResultItemDev = ({title, subtitle, id, parraf, imagenes, gallery, videos}) => {
 	return (
-			<div  className="item">
+			<div className="item">
 				<div></div>
 				<div className="text">
 					<h3>{title}</h3>
@@ -21,17 +21,17 @@ const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
 							</Carousel>}
 						</div>}
 							{videos.length <=3 && <div>
-								{videos.map(src=> <video  key={src} className="colvids" src={src} alt="video" controls></video> )}
+								{videos.map(src=> <video autoPlay loop  key={src} className="colvids" src={src} alt="video" controls></video> )}
 							</div>}
 					</div>
 					<div className="imags">
-								{imagenes.length > 2 && <div>
-								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
-												{imagenes.map(src => <img  key={src} src={src} alt="Seguridad Vial"/>)}
-									</Carousel>}
-								</div>}
-								{imagenes.length <=2 && <div>
+								{imagenes && <div>
 								{ imagenes.map(src => <img className="imags"  key={src} src={src} alt="Seguridad Vial"/>)}
+								</div>}
+								{gallery && <div>
+								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
+												{gallery.map(src => <img  key={src} src={src} alt="Seguridad Vial"/>)}
+									</Carousel>}
 								</div>}
 					</div>
 				</div>
@@ -39,19 +39,21 @@ const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
 		)
 }
 
-ResultItem.defaultProps = {
+ResultItemDev.defaultProps = {
 	title: 'here goes a Title',
 	subtitle: 'here goes a Subtitle',
 	parraf: "Paragraph",
 	imagenes: [],
 	videos: [],
+	gallery: [],
 }
-ResultItem.propTypes = {
+ResultItemDev.propTypes = {
 	title: PropTypes.string.isRequired,
 	subtitle: PropTypes.string.isRequired,
 	parraf: PropTypes.string.isRequired,
 	imagenes: PropTypes.array.isRequired,
 	videos: PropTypes.array.isRequired,
+	gallery: PropTypes.array.isRequired,
 }
-export default ResultItem;
+export default ResultItemDev;
 
