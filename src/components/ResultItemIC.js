@@ -25,7 +25,7 @@ const ResultItemIC = ({title, subtitle, id, parraf, imagenes, web, insta, yot, v
 								<img src={yt} style={{width:'2em'}} alt="Yot"/>
 							</a>
 					</div>}
-					{web.length != 0 && <div style={{textAlign:'right'}}>
+					{web.length != 0 && <div>
 						<a href={web} target="_blank">
 								<img src={wb} style={{width:'2em'}} alt="Website"/>
 							</a>
