@@ -30,7 +30,10 @@ class VermasAngel extends Component {
 						subtitle={result.subtitle}
 						parraf={result.parraf}
 						imagenes={result.imagenes}
+						insta={result.insta}
+						yot={result.yot}
 						videos={result.videos}
+						web={result.web}
 					/>)}
 				{this.state.limit >= 6 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
 			</div>

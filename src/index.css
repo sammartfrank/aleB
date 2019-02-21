@@ -224,6 +224,12 @@ h1{
   margin: 0;
   padding: 0;
  }
+
+ .rea {
+ 	display:grid;
+ 	grid-template-columns: 45% 45%;
+ 	justify-content: center;
+ }
 /*FOOTER*/
 
 /*DESKTOP*************************INICIO***************************************/
@@ -333,6 +339,9 @@ left: 42.4%;
 .social {
 	padding-top:0.8em;
 }
+ .rea {
+ 	text-align: right;
+ }
 }
 /*DESKTOP*/
 
