@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Spring } from 'react-spring';
-
+ 	
 import ResultItem from './ResultItem.js';
 
 class Vermas extends Component {
@@ -30,16 +29,14 @@ class Vermas extends Component {
 				{!results && <div>No Jobs to display</div>}
 				{results && results.map(result => 
 					<div ref="it">
-						<Spring>
-						{ props => <ResultItem
+						<ResultItem
 							key={result.id}
 							title={result.title}
 							subtitle={result.subtitle}
 							parraf={result.parraf}
 							imagenes={result.imagenes}
 							videos={result.videos}
-						/>}
-						</Spring>
+						/>
 					</div>
 				)}		
 				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
