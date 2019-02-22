@@ -42,7 +42,7 @@ var results = [
 	{id:18, title:'', subtitle: 'Social media plays a big role in this project as i produced the content in modular short-form pieces to be able to build a subscriber base in the YouTube channel with 100% organic publishing. Instagram and Facebook played an important part in that objective.', insta:['https://www.instagram.com/losangelesdelacocina'], yot:['https://www.youtube.com/channel/UCtbAtJgZhlaJ8eGqeEARJpQ/featured'], parraf:"", imagenes: [], videos: [YTLADLC,IGLADLC,PremiereLADLC]},
 	{id:19, title:'', subtitle: 'Additional content was generated during the process to source more content for scheduled social media publishing and press releases.', parraf:"", imagenes: [LADLC1,LADLC2,LADLC3,LADLC4,LADLC5,LADLC6,LADLC7,LADLC8,LADLC9,LADLC10,LADLC11,LADLC12,LADLC13], videos: []},
 	{id:20, title:'NIETOTEST',subtitle:'-Nieto- stands for grandchildren. This project consists of a website that contains a customizable and printable memotest to help families stay close to their grandparents during early stages of Alzheimer’s disease. Gamifying a global problem, NIETOTEST helps grandparents and children over the world, everyday.', parraf:"", web:['http://nietotest.com/'], imagenes: [LogoNT,CardsNT], videos: [VideoNT,ScreenNT]},
-	{id:21, title:'FIRST CHAPTER', subtitle: 'This publishing house needed some kind of sales boosting strategy so we came up with First Chapter. Sampling in a category not yet used.', parraf:"", imagenes: [BoardFC], videos: [VideoFC]},
+	{id:21, title:'FIRST CHAPTER', subtitle: 'This publishing house needed a sales boosting solution so we came up with First Chapter. Sampling in a category not yet used.', parraf:"", imagenes: [], videos: [VideoFC]},
 	];
 
 function JobIntegratedContent() {
