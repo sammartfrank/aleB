@@ -1,6 +1,8 @@
 import React from 'react';
 
 import { Carousel } from 'react-responsive-carousel';
+import { Spring } from 'react-spring';
+
 import PropTypes from 'prop-types';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 

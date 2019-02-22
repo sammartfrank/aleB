@@ -1,11 +1,8 @@
 import React from 'react'
 import video from './img/CONTACT.mp4';
-import fb1 from './img/rs/FB.png'
-import fb2 from './img/rs/FB-hover.png'
-import ig1 from './img/rs/IG.png'
-import ig2 from './img/rs/IG-hover.png'
-import tw1 from './img/rs/TW.png'
-import tw2 from './img/rs/TW-hover.png'
+import fb1 from './img/rs/2-FB.png'
+import ig1 from './img/rs/3-IG.png'
+import tw1 from './img/rs/1-TW.png'
 import { Spring } from 'react-spring'	;
 
 const Footer = () => {
@@ -21,14 +18,14 @@ const Footer = () => {
 											<h3>Write</h3>
 											<a href=""><p>ale.barredo@gmail.com</p></a>
 											<h3>Call</h3>
-											<p>+54 9 11 55771850</p>
+											<p>+54 9 11 55771850</p>	
 											<div className="social">
 												<h3>Stick Around</h3>
 												<ul>
 													<li>
-														<a href="https://www.instagram.com/ale.barredo/?hl=es-la" target="_blank"><img src={ig1} alt="Instagram"/></a>
-														<a href="https://www.facebook.com/ale3arredo"  target="_blank"><img src={fb1} alt="Facebook"/></a>
-														<a href="https://twitter.com/dalemonodalex"  target="_blank"><img src={tw1} alt="twitter"/></a>
+														<a href="https://www.instagram.com/ale.barredo/?hl=es-la" target="_blank"><img src={ig1} id="ig" alt="Instagram"/></a>
+														<a href="https://www.facebook.com/ale3arredo"   target="_blank"><img src={fb1} id="fb" alt="Facebook"/></a>
+														<a href="https://twitter.com/dalemonodalex"   target="_blank"><img src={tw1} id="tw" alt="twitter"/></a>
 													</li>
 												</ul>
 											</div>

@@ -219,16 +219,38 @@ h1{
 	font-family: Kameron, bold;
 	font-size:2em;
 }
+.social li{
+	display:grid;
+	grid-template-columns:33% 33% 33%;
+	margin: 0 auto;
+}
 .social ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
  }
-
  .rea {
  	display:grid;
  	grid-template-columns: 45% 45%;
  	justify-content: center;
+ }
+ #ig:hover {
+ 	background: rgba(214,55,255,1);
+ 	border-radius:50%;
+ 	padding-right: 0.1rem;
+ 	padding-left: 0.1rem;
+ }
+ #fb:hover {
+ 	background: rgba(87,80,255,1);
+ 	border-radius:50%;
+ 	padding-right: 0.1rem;
+ 	padding-left: 0.1rem;
+ }
+ #tw:hover {
+ 	background: rgba(16,237,255,1);
+ 	border-radius:50%;
+ 	padding-right: 0.1rem;
+ 	padding-left: 0.1rem;
  }
 /*FOOTER*/
 

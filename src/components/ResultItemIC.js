@@ -1,12 +1,13 @@
 import React from 'react';
-import ig from "./img/rs/IG-hover.png"
-import yt from './img/rs/yt.png'
-import wb from './img/rs/link.png'
+import ig from "./img/rs/LADLC-IG.png";
+import fb from './img/rs/LADLC-FB.png';
+import yt from './img/rs/yt.png';
+import wb from './img/rs/link.png';
 import { Carousel } from 'react-responsive-carousel';
 import PropTypes from 'prop-types';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const ResultItemIC = ({title, subtitle, id, parraf, imagenes, web, insta, yot, videos}) => {
+const ResultItemIC = ({title, subtitle, id, parraf, imagenes, web, insta, fabook, yot, videos}) => {
 	return (
 			<div className="item">
 				<div></div>
@@ -25,6 +26,12 @@ const ResultItemIC = ({title, subtitle, id, parraf, imagenes, web, insta, yot, v
 								<img src={yt} style={{width:'2em'}} alt="Yot"/>
 							</a>
 					</div>}
+					{fabook.length != 0 && <div>
+							<a href={fabook} target="_blank">
+								<img src={fb} style={{width:'2em'}} alt="facebook"/>
+							</a>
+					</div>}
+
 					{web.length != 0 && <div>
 						<a href={web} target="_blank">
 								<img src={wb} style={{width:'2em'}} alt="Website"/>
@@ -67,6 +74,7 @@ ResultItemIC.defaultProps = {
 	insta: [],
 	yot: [],
 	web: [],
+	fabook: [],
 }
 ResultItemIC.propTypes = {
 	title: PropTypes.string.isRequired,
@@ -77,6 +85,7 @@ ResultItemIC.propTypes = {
 	insta: PropTypes.array.isRequired,
 	yot: PropTypes.array.isRequired,
 	web: PropTypes.array.isRequired,
+	fabook: PropTypes.array.isRequired,
 }
 export default ResultItemIC;
 
