@@ -302,7 +302,7 @@ h1{
 		margin:0 auto;
 	}
 	.preftglow h1 {
-		padding-top:.2em;
+		/padding-top:.2em;
 		font-weight:600;
 	}
 	#ok {
