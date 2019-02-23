@@ -19,16 +19,14 @@ class Vermas extends Component {
 			limit: 1,
 		})
 	}
-	handleScroll = () => {
-		this.refs.it.scrollIntoView();
-	}
+
 	render() {
 		const results = this.props.results.slice(0, this.state.limit);
 		return (
 			<div className="results">
 				{!results && <div>No Jobs to display</div>}
 				{results && results.map(result => 
-					<div ref="it">
+					<div>
 						<ResultItem
 							key={result.id}
 							title={result.title}
@@ -39,10 +37,13 @@ class Vermas extends Component {
 						/>
 					</div>
 				)}		
-				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas}>+</a>}
+				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas} onKeyDown={this.smoothScroll}>+</a>}
 			</div>
 			)
 	}
 }
 export default Vermas;
+
+
+
 

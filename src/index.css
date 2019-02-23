@@ -83,79 +83,88 @@ code {
 	width: 80%;
 	margin: 0 auto;
 }
-.preft h1 {
+.preftglow {
+	color: white;
+	font-family: Kameron, regular;
+	line-height: 1.2em;
+	padding-top: 18em;
+	font-weight: 400;
+	width: 80%;
+	margin: 0 auto;
+}
+.preftglow h1 {
 	font-size:3em;
 	line-height: 1.2em;
 	padding-top:.3em;
 	text-align:center;
 }
 /*Preft************************FIN*********************************/
-.carruvids {
-	padding: 2.5em;
-}
-.results {
-	padding-bottom:2em;
-	width:100%;
-}
-a.animated-button {
-	color: black;
-	font-size: 1.2em;
-	font-weight:750;
-	cursor: pointer;
-	display: block;
-	width: 3.8em;
-	border-radius: 100%;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin: 0 auto;
-	position: relative;
-	border: 2px solid black;
-	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-a.animated-button:hover {
-	color: white !important;
-	background-color: black;
-	text-shadow: none;
-}
-a.animated-button:hover:before {
-	bottom: 0%;
-	top: auto;
-	height: 100%;
-}
-a.animated-button:before {
-	display: block;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	height: 0px;
-	width: 100%;
-	z-index: -1;
-	content: '';
-	color: #000 !important;
-	background: black;
-	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-/*DEV BUTTON */
-.animated-buttondev {
-	color: white;
-	font-size: 1.2em;
-	font-weight:750;
-	cursor: pointer;
-	display: block;
-	width: 3.8em;
-	border-radius: 100%;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin: 0 auto;
-	position: relative;
-	border: 2px solid white;
-	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-}
-.animated-buttondev:hover {
-	color: black !important;
-	background-color: white;
-	text-shadow: none;
-}
+	.carruvids {
+		padding: 2.5em;
+	}
+	.results {
+		padding-bottom:2em;
+		width:100%;
+	}
+	a.animated-button {
+		color: black;
+		font-size: 1.2em;
+		font-weight:750;
+		cursor: pointer;
+		display: block;
+		width: 3.8em;
+		border-radius: 100%;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		margin: 0 auto;
+		position: relative;
+		border: 2px solid black;
+		transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	}
+	a.animated-button:hover {
+		color: white !important;
+		background-color: black;
+		text-shadow: none;
+	}
+	a.animated-button:hover:before {
+		bottom: 0%;
+		top: auto;
+		height: 100%;
+	}
+	a.animated-button:before {
+		display: block;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		height: 0px;
+		width: 100%;
+		z-index: -1;
+		content: '';
+		color: #000 !important;
+		background: black;
+		transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	}
+	/*DEV BUTTON */
+	.animated-buttondev {
+		color: white;
+		font-size: 1.2em;
+		font-weight:750;
+		cursor: pointer;
+		display: block;
+		width: 3.8em;
+		border-radius: 100%;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		margin: 0 auto;
+		position: relative;
+		border: 2px solid white;
+		transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	}
+	.animated-buttondev:hover {
+		color: black !important;
+		background-color: white;
+		text-shadow: none;
+	}
 	.job2 {
 		padding-bottom:5em;
 		padding-top:2em;
@@ -164,7 +173,6 @@ a.animated-button:before {
 	background:white;
 	color: black;
 }
-
 .job3 {
 	background: black;
 	color: white;
@@ -231,23 +239,27 @@ h1{
  	grid-template-columns: 33% 33% 33%;
  	justify-content: center;
  }
+ #ig {
+ 	padding:1em;
+ }
+  #fb {
+ 	padding:1em;
+ }
+  #tw {
+ 	padding:1em;
+ }
+
  #ig:hover {
  	background: rgba(214,55,255,1);
  	border-radius:50%;
- 	padding-right: 0.1rem;
- 	padding-left: 0.1rem;
  }
  #fb:hover {
  	background: rgba(87,80,255,1);
  	border-radius:50%;
- 	padding-right: 0.1rem;
- 	padding-left: 0.1rem;
  }
  #tw:hover {
  	background: rgba(16,237,255,1);
  	border-radius:50%;
- 	padding-right: 0.1rem;
- 	padding-left: 0.1rem;
  }
 /*FOOTER*/
 
@@ -288,7 +300,7 @@ h1{
 		width:30%;
 		margin:0 auto;
 	}
-	.preft h1 {
+	.preftglow h1 {
 		padding-top:.2em;
 		font-weight:500;
 	}
@@ -367,22 +379,16 @@ h1{
 
 
 /*DESKTOP-BigScreens*************************INICIO***************************************/
-@media(min-width: 1500px) {
+@media(min-width: 1650px) {
 	.header {
 		padding-top: 23em;
 	}
 	.arr {
-		padding-top: 8em;
+		padding-top: 9em;
 	}
-	.preft {
+	.preftglow h1{
 		padding-top: 12em;
-		font-size:2em;
-	}
-	.preft h1 {
 		font-size:3em;
-		line-height: 1.2em;
-		padding-top:.3em;
-		text-align:center;
 	}
 	.item {
 		grid-template-columns: 10% 16% 52% 11%;
