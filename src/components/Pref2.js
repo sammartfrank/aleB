@@ -12,7 +12,7 @@ function Pref2() {
 							from={{ opacity:0, transform: 'translateY(0)',  }}
 							to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'3'}}>
 								{props => <div style={props} className="preft">
-								<p>Time at home never goes to waste. Learning is a constant. 3d modeling, game development, music production and illustration are passions that turn useful at every project.</p>
+								<p>Learning is a constant that turns useful at every project. </p>
 								</div>}
 					</Spring>
 				</div>

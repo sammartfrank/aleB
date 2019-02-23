@@ -13,9 +13,7 @@ function Pref()  {
 							to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'3'}}>
 								{props => <div style={props} className="preft">
 								<p>Projects below communicate on different media channels and
-								involve other disciplines: namings, graphic ID, 
-								production, direction, editing and planning of content
-								for social media premieres and launches.</p>
+								involve other disciplines.</p>
 								</div>}
 					</Spring>
 				</div>

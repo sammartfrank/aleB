@@ -37,7 +37,7 @@ import I15 from './img/indie/Illustration/misc-1.jpg';
 
 var results = [
 	{id:22, title:'GAME DEV', subtitle: 'I work with Unity3D and Blender to create characters, worlds and currently developing a game as an indie.', parraf:"", imagenes: [], videos: [ElvisTurn,TankTurn,SkinnyTurn]},
-	{id:23, title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", imagenes: [Pill1,Pill2,Pill3,Pill4,LittleOne], gallery:[Yoyo,YuckFou,Faulty,X32], videos: []},
+	{id:23, title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", gallery:[Yoyo,YuckFou,Faulty,X32], imagenes: [Pill1,Pill2,Pill3,Pill4,LittleOne], videos: []},
 	{id:24, title:'ILLUSTRATION', subtitle: 'Stranger things happen when i grab a pencil or an IPad', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I10,I11,I12,I13,I14,I15], videos: []},
 ];
 

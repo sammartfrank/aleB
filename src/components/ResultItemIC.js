@@ -50,16 +50,21 @@ const ResultItemIC = ({title, subtitle, id, parraf, imagenes, web, insta, fabook
 								{ imagenes.map(src => <img className="imags"  key={src} src={src} alt="Seguridad Vial"/>)}
 								</div>}
 					</div>
-					<div className='vidios'>
-						{videos.length >= 5 && <div id="carruvids">
-							{<Carousel infiniteLoop showThumbs={false} interval={5000}  >
-										{videos.map(src=> <video key={id} controls src={src} alt="video"></video>)}
-							</Carousel>}
-						</div>}
-							{videos.length <=3 && <div>
-								{videos.map(src=> <video  key={src} className="colvids" src={src} alt="video" controls></video> )}
-							</div>}
-					</div>
+					   <div className='vidios'>
+                        {videos.length >= 5 && <div id="carruvids">
+                            {<Carousel infiniteLoop showThumbs={false} interval={5000}  >
+                                        {videos.map(src=> <video key={id} controls src={src} alt="video"></video>)}
+                            </Carousel>}
+                        </div>}
+                            {videos.length >=2 && <div>
+                                {videos.map(src=> <video autoPlay loop  key={src} className="colvids" src={src} alt="video" controls></video> )}
+                            </div>}
+
+                            {videos.length < 2 && <div>
+                                {videos.map(src=> <video  key={src} className="colvids" src={src} alt="video" controls></video> )}
+                            </div>}
+
+                    </div>
 				</div>
 			</div>
 		)

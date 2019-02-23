@@ -47,6 +47,7 @@ code {
 	padding-top: 6em;
 	padding-bottom: 9em;
 	font-size: 16px;
+    text-align:center;
 	line-height: 1;
 }
 #arrow {
@@ -78,7 +79,7 @@ code {
 	font-family: Kameron, regular;
 	line-height: 1.2em;
 	padding-top: 18em;
-	font-weight: 350;
+	font-weight: 400;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -207,7 +208,7 @@ h1{
 	padding: 0;
 	color: white;
 	position: absolute;
-	left: 24%;
+	left: 26%;
 	top: 33.7%;
 	line-height: 0;
 }
@@ -286,13 +287,13 @@ padding-top: 17em;
 	width:100%;
 }
 .preft {
-	padding-top: 15em;
+	padding-top: 14em;
 	font-size:20px;
-	width:25%;
+	width:30%;
 	margin:0 auto;
 }
 .preft h1 {
-	padding-top:.5em;
+	padding-top:.2em;
 	font-weight:500;
 }
 #ok {
@@ -306,7 +307,7 @@ padding-top: 17em;
 .vidios video {
 	width:80%;
 	margin:0 auto;
-	padding-bottom:.8em;
+	padding-bottom:.5em;
 	text-align:none;
  position: center;
 }
@@ -314,7 +315,7 @@ padding-top: 17em;
 .imags {
 	/margin-top:.2em;
 	width:41.2vw;
- padding-bottom:2em;
+ padding-bottom:1em;
 }
 .item {
 	display: grid;
@@ -343,7 +344,7 @@ text-align:center;
 padding-top:2.5em;
 display:grid;
 position: absolute;
-left: 42.4%;
+left: 43%;
 }
 .footer h1 {
 	font-size: 3.5rem;
@@ -368,5 +369,34 @@ left: 42.4%;
 /*DESKTOP*/
 
 
+/*DESKTOP-BigScreens*************************INICIO***************************************/
+@media (min-width: 1500px) {
+
+.header {
+padding-top: 23em;
+}
+
+.arr {
+padding-top: 9em;
+}
+
+.preft {
+padding-top: 12em;
+font-size:2em;
+
+}
+
+.preft h1 {
+font-size:3em;
+line-height: 1.2em;
+padding-top:.3em;
+text-align:center;
+}
+
+.item {
+grid-template-columns: 10% 16% 52% 11%;
+}
+
+}
 
 
