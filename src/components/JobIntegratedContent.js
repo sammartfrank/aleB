@@ -7,7 +7,6 @@ import CharactersLADLC from './img/rrss/LADLC/TurnAround.gif';
 import OpeningLADLC from './img/rrss/LADLC/Opening.mp4';
 import IGLADLC from './img/rrss/LADLC/IG.mp4';
 import YTLADLC from './img/rrss/LADLC/YT.mp4';
-import PremiereLADLC from './img/rrss/LADLC/Premiere.mp4';
 
 import LADLC1 from './img/rrss/LADLC/Gallery/1-B2B.jpg';
 import LADLC2 from './img/rrss/LADLC/Gallery/2-Cooking.jpg';
@@ -36,8 +35,8 @@ import VideoFC from './img/rrss/FC/FirstChapter.mp4';
 var results = [
 	{id:16, title:'KITCHEN ANGELS', subtitle: 'This project is a TV-show for Food Network channel. Responsible for production, selling and direction of the project. Originally a pilot that became acquired by Scripps Networks Interactive to air on Food Network’s roster. It involves every stage of the marketing spectrum. We started with a hand-drawn logo and character design.', parraf:"", imagenes: [LogoLADLC,CharactersLADLC], videos: []},
 	{id:16, title:'', subtitle: 'Produced a show opening to kick off with the brand’s concept achieve maximum branding impact.', parraf:"", imagenes: [], videos: [OpeningLADLC]},
-	{id:18, title:'', subtitle: 'Social media plays a big role in this project. Content has a modular short-form format, making it able to build and grow a subscriber community in the YouTube, Instagram and Facebook channels with 100% organic publishing. Cross-publishing method was used to connect all three with talent profiles.', insta:['https://www.instagram.com/losangelesdelacocina'], yot:['https://www.youtube.com/channel/UCtbAtJgZhlaJ8eGqeEARJpQ/featured'],fabook:['https://www.facebook.com/losangelesdelacocina/'], parraf:"", imagenes: [], videos: [YTLADLC,IGLADLC,PremiereLADLC]},
-	{id:19, title:'', subtitle: 'Additional content was created during the process to generate more interaction scheduled social media publishing and press releases.', parraf:"", imagenes: [LADLC1,LADLC2,LADLC3,LADLC4,LADLC5,LADLC6,LADLC7,LADLC8,LADLC9,LADLC10,LADLC11,LADLC12,LADLC13], videos: []},
+	{id:18, title:'', subtitle: 'Social media plays a big role in this project. Content has a modular short-form format, making it able to build and grow a subscriber community in the YouTube, Instagram and Facebook channels with 100% organic publishing. Cross-publishing method was used to connect all three with talent profiles.', insta:['https://www.instagram.com/losangelesdelacocina'], yot:['https://www.youtube.com/channel/UCtbAtJgZhlaJ8eGqeEARJpQ/featured'],fabook:['https://www.facebook.com/losangelesdelacocina/'], parraf:"", imagenes: [], videos: [YTLADLC,IGLADLC]},
+	{id:19, title:'', subtitle: 'Additional content was created during the process for scheduled social media publishing and press releases.', parraf:"", imagenes: [LADLC1,LADLC2,LADLC3,LADLC4,LADLC5,LADLC6,LADLC7,LADLC8,LADLC9,LADLC10,LADLC11,LADLC12,LADLC13], videos: []},
 	{id:20, title:'NIETOTEST',subtitle:'-Nieto- stands for grandchildren. This project consists of a website that contains a customizable and printable memotest to help families stay close to their grandparents during early stages of Alzheimer’s disease. Gamifying a global problem, NIETOTEST helps grandparents and children over the world, everyday.', parraf:"", web:['http://nietotest.com/'], imagenes: [LogoNT,CardsNT], videos: [VideoNT]},
 	{id:21, title:'FIRST CHAPTER', subtitle: 'This publishing house needed a sales boosting solution. We came up with First Chapter. Sampling in a category not yet used: books.', parraf:"", imagenes: [], videos: [VideoFC]},
 	];
