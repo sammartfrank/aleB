@@ -16,7 +16,7 @@ const Footer = () => {
 								to={{ opacity:1, transform: 'translateY(-150px)', zIndex:'1'}}>
 									{props => <div style={props} className="footer">
 											<h3>Write</h3>
-											<a href=""><p>ale.barredo@gmail.com</p></a>
+											<a href="mailto:alebarredo@gmail.com"><p>ale.barredo@gmail.com</p></a>
 											<h3>Call</h3>
 											<p>+54 9 11 55771850</p>	
 											<div className="social">

@@ -60,6 +60,7 @@ code {
 /*Header Section*****************FIN******************************/
 .imags {
 	padding-bottom: 2em;
+	width:25em;
 }
 .media {
 	display:grid;
@@ -68,6 +69,9 @@ code {
 	width:100%;
 	margin:0 auto;
 	padding-bottom:2em;
+}
+.webi {
+	margin-bottom:3em;
 }
 /*Preft*************************INICIO********************************/
 .preft {
@@ -253,7 +257,7 @@ h1{
 		padding-top: 17em;
 	}
 	.arr {
-		padding-top: 6.5em;
+		padding-top: 6em;
 	}
 	.job, .job2, .job3 {
 		width:100%;
@@ -355,6 +359,9 @@ h1{
 	.rea {
 	 text-align: right;
 	}
+	.webi {
+	text-align:right;
+}
 }
 /*DESKTOP*/
 
@@ -365,7 +372,7 @@ h1{
 		padding-top: 23em;
 	}
 	.arr {
-		padding-top: 9em;
+		padding-top: 8em;
 	}
 	.preft {
 		padding-top: 12em;
