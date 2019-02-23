@@ -23,9 +23,9 @@ const Footer = () => {
 												<h3>Stick Around</h3>
 												<ul>
 													<li>
-														<a href="https://www.instagram.com/ale.barredo/?hl=es-la" target="_blank"><img src={ig1} id="ig" alt="Instagram"/></a>
-														<a href="https://www.facebook.com/ale3arredo"   target="_blank"><img src={fb1} id="fb" alt="Facebook"/></a>
-														<a href="https://twitter.com/dalemonodalex"   target="_blank"><img src={tw1} id="tw" alt="twitter"/></a>
+														<a href="https://www.instagram.com/ale.barredo/?hl=es-la" rel="noopener noreferrer" target="_blank"><img src={ig1} id="ig" alt="Instagram"/></a>
+														<a href="https://www.facebook.com/ale3arredo" rel="noopener noreferrer" target="_blank"><img src={fb1} id="fb" alt="Facebook"/></a>
+														<a href="https://twitter.com/dalemonodalex" rel="noopener noreferrer" target="_blank"><img src={tw1} id="tw" alt="twitter"/></a>
 													</li>
 												</ul>
 											</div>

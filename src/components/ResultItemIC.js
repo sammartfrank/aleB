@@ -17,23 +17,23 @@ const ResultItemIC = ({title, subtitle, id, parraf, imagenes, web, insta, fabook
 					{parraf && <p>{parraf}</p>}
 					<div className="rea">
 						{insta.length != 0 && <div>
-								<a href={insta} target="_blank">
+								<a href={insta} rel="noopener noreferrer" target="_blank">
 									<img src={ig} style={{width:'2em'}} alt="Instagram"/>
 								</a>
 						</div>}
 						{yot.length != 0 && <div>
-								<a href={yot} target="_blank">
+								<a href={yot} rel="noopener noreferrer" target="_blank">
 									<img src={yt} style={{width:'2em'}} alt="Yot"/>
 								</a>
 						</div>}
 						{fabook.length != 0 && <div>
-								<a href={fabook} target="_blank">
+								<a href={fabook} rel="noopener noreferrer" target="_blank">
 									<img src={fb} style={{width:'2em'}} alt="facebook"/>
 								</a>
 						</div>}
 					</div>
 						{web.length != 0 && <div className="webi">
-							<a href={web} target="_blank">
+							<a href={web} rel="noopener noreferrer"  target="_blank">
 									<img src={wb} style={{width:'2em'}} alt="Website"/>
 								</a>
 						</div>}
