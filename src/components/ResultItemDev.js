@@ -6,9 +6,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const ResultItemDev = ({title, subtitle, id, parraf, imagenes, gallery, videos}) => {
 	return (
-			<div className="item">
+			<div className="item" style={{paddingTop:'2.5em'}}>
 				<div></div>
-				<div className="text">
+				<div className="text" style={{marginBottom:'1em'}}>
 					<h3>{title}</h3>
 					{subtitle.length !== 0 && <p>{subtitle}</p>}
 					{parraf && <p>{parraf}</p>}

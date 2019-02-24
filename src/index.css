@@ -170,6 +170,11 @@ code {
 		padding-bottom:5em;
 		padding-top:2em;
 	}
+ .rea {
+ 	display:grid;
+ 	grid-template-columns: 33% 33% 33%;
+ 	justify-content: center;
+ }
 .job, .job2 {
 	background:white;
 	color: black;
@@ -204,42 +209,38 @@ code {
 	font-family: Kameron, regular;
 
 }
-h1{
+h1 {
 	font-family: 'Major Mono Display', monospace;
 	font-size:inherit;
 }
 /*FOOTER*/
-	.footer {
-		padding: 0;
-		color: white;
-		position: absolute;
-		left: 20%;
-		top: 33.7%;
-		line-height: 0;
-	}
-	.footer h1 {
-		font-size:2.5em;
-		font-family: 'Major Mono Display', monospace;
-	}
-	.footer h3 {
-		font-family: Kameron, bold;
-		font-size:2em;
-	}
-	.social li{
-		display:grid;
-		grid-template-columns:33% 33% 33%;
-		margin: 0 auto;
-	}
-	.social ul {
-	  list-style-type: none;
-	  margin: 0;
-	  padding: 0;
-	 }
- .rea {
- 	display:grid;
- 	grid-template-columns: 33% 33% 33%;
- 	justify-content: center;
- }
+	
+.contact {
+	background: black;
+	height:100vh;
+	color: white;
+	font-family: Kameron, regular;
+}
+.contact ul {
+	 list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.info {
+	margin-top:3em;
+	line-height: .3em;
+}
+.info a {
+	color: white;
+}
+.info h3 {
+	font-size: 2em;
+}
+.info p, a {
+	margin-bottom: 1em;
+	font-size: 1.5rem;
+}
+
  #ig {
  	padding:1em;
  }
@@ -302,7 +303,7 @@ h1{
 		margin:0 auto;
 	}
 	.preftglow h1 {
-		/padding-top:.2em;
+		padding-top:.2em;
 		font-weight:600;
 	}
 	#ok {
@@ -390,16 +391,15 @@ h1{
 		padding-top: 2em;
 		font-size:4em;
 	}
-
-    .preft {
-        padding-top: 11.5em;
-        font-size: 35px;
-        width: 30%;
-        margin: 0 auto;
-    }
+	.preft {
+  padding-top: 11.5em;
+  font-size: 35px;
+  width: 30%;
+  margin: 0 auto;
+	}
 	.item {
 		grid-template-columns: 10% 16% 52% 11%;
-    }
+ }
 
     .footer {
         padding: 0;
