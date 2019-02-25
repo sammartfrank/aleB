@@ -15,12 +15,12 @@ const ResultItemDev = ({title, subtitle, id, parraf, imagenes, gallery, videos})
 				</div>
 				<div className="media">
 					<div className='vidios'>
-						{videos.length >= 5 && <div id="carruvids">
+						{videos.length >= 10 && <div id="carruvids">
 							{<Carousel infiniteLoop showThumbs={false} interval={5000}  >
 										{videos.map(src=> <video key={id} controls src={src} alt="video"></video>)}
 							</Carousel>}
 						</div>}
-							{videos.length <=3 && <div>
+							{videos.length <=9 && <div>
 								{videos.map(src=> <video autoPlay loop  key={src} className="colvids" src={src} alt="video" controls></video> )}
 							</div>}
 					</div>
