@@ -8,7 +8,7 @@ import { Spring } from 'react-spring'	;
 const Footer = () => {
 	return (
 			<div className="contact">
-				<video src={video} autoPlay muted loop style={{width:'8em', height:'8em', marginTop:'5em', marginBottom:'3em'}}/>
+				<video src={video} autoPlay muted loop style={{width:'8em', height:'8em', marginTop:'5em', marginBottom:'0em'}}/>
 				<div className="info">
 					<h3>Write</h3>
 					<a href="mailto:alebarredo@gmail.com"><p style={{fontFamily: 'Kameron'}}>ale.barredo@gmail.com</p></a>

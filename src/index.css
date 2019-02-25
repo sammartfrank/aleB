@@ -157,6 +157,7 @@ code {
 		padding-top: 1em;
 		padding-bottom: 1em;
 		margin: 0 auto;
+        margin-top: 2em;
 		position: relative;
 		border: 2px solid white;
 		transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
@@ -166,7 +167,7 @@ code {
 		background-color: white;
 		text-shadow: none;
 	}
-	.job2 {
+	.job,.job2 {
 		padding-bottom:5em;
 		padding-top:2em;
 	}
@@ -205,7 +206,7 @@ code {
 	padding:2.6em;
 	padding-top:0;
 	line-height:1.15;
-	text-align: justify;
+	text-align: left;
 	font-family: Kameron, regular;
 
 }
