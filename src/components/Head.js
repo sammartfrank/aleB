@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import arrow from './img/arw.png';
 import { Spring } from 'react-spring';
 
-import video from './img/HOME.mp4';
+import BG from './img/HOME.gif';
 
 class Head extends Component {
 	componentDidMount() {
@@ -46,10 +46,10 @@ class Head extends Component {
 	}
 	render() {
 		return (
-			<div className="container-fluid" id="start" style={{background:'rgba(255,153,51,0.2)', position:'static', height:'100vh'}}>
+			<div className="container-fluid" id="start" style={{background:'rgba(0,0,0,.5)', position:'static', height:'100vh'}}>
 			 <div className="header">
 					<div style={{width: '100vw', height: '100%',position: 'fixed', top: '0px', left:'0px', overflow: 'hidden', zIndex: '-1'}}>
-  				<video src={video} autoPlay loop style={{width:'100vw', height:'100%', objectFit: 'cover'}}/>
+  				<img src={BG} style={{width:'100vw', height:'100%', objectFit: 'cover'}}/>
 				</div>
 					<Spring
 						from={{ opacity:0, transform: 'translateX(-150px)', }}

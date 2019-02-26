@@ -37,7 +37,7 @@ class Vermas extends Component {
 						/>
 					</div>
 				)}		
-				{this.state.limit >= 15 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas} onKeyDown={this.smoothScroll}>+</a>}
+				{this.state.limit >= 14 ? <a className="btn btn-md animated-button" onClick ={this.handleClose}>-</a> : <a  className="btn btn-md animated-button" onClick={this.handleOnVerMas} onKeyDown={this.smoothScroll}>+</a>}
 			</div>
 			)
 	}

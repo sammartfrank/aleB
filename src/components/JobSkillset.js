@@ -43,9 +43,10 @@ import I16 from './img/indie/Illustration/office.gif';
 
 
 var results = [
-	{id:22, title:'GAME DEV', subtitle: 'I work with Unity3D and Blender to create characters, worlds and currently developing a game as an indie.', parraf:"", imagenes: [Hotel], videos: [ElvisTurn,TankTurn,SkinnyTurn,Transam,GRAFF,Oldie]},
-	{id:23, title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", gallery:[Yoyo,YuckFou,Faulty,X32,LittleOne], imagenes: [Pill1,Pill2,Pill3,Pill4], videos: []},
-	{id:24, title:'ILLUSTRATION', subtitle: 'Stranger things happen when i grab a pencil or an IPad', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I11,I12,I13,I14,I15,I16,I17], videos: []},
+	{id:22, title:'GAME DEV', subtitle: 'I work with Unity3D to create explorable worlds and currently developing a game as an indie.', parraf:"", imagenes: [Hotel], videos: []},
+    {id:23, title:'', subtitle: 'I use Blender 3D to shape out models and then Photoshop + Substance Painter to texturize them.', parraf:"", imagenes: [], videos: [ElvisTurn,TankTurn,SkinnyTurn,Transam,GRAFF,Oldie]},
+    {id:24, title:'TOYS', subtitle: 'Sometimes i switch to something different from a mouse and keyboard. That\'s when these come out.', parraf:"", gallery:[Yoyo,YuckFou,Faulty,X32,LittleOne], imagenes: [Pill1,Pill2,Pill3,Pill4], videos: []},
+	{id:25, title:'ILLUSTRATION', subtitle: 'Stranger things happen when i grab a pencil or an IPad..', parraf:"", imagenes: [I1,I2,I3,I4,I5,I6,I7,I8,I9,I11,I12,I13,I14,I15,I16,I17], videos: []},
 ];
 
 
