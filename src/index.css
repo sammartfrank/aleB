@@ -24,6 +24,39 @@ code {
     bottom:-35px;
   }
 }
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+@keyframes whpulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
 /*Header Section****************INICIO**********************************/
 .header {
 	color: white;
@@ -126,6 +159,8 @@ code {
 		color: white !important;
 		background-color: black;
 		text-shadow: none;
+		animation: pulse infinite 2s linear;
+		overflow:hidden;
 	}
 	a.animated-button:hover:before {
 		bottom: 0%;
@@ -157,7 +192,7 @@ code {
 		padding-top: 1em;
 		padding-bottom: 1em;
 		margin: 0 auto;
-        margin-top: 2em;
+  margin-top: 2em;
 		position: relative;
 		border: 2px solid white;
 		transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
@@ -166,6 +201,7 @@ code {
 		color: black !important;
 		background-color: white;
 		text-shadow: none;
+		animation: whpulse infinite 2s linear;
 	}
 	.job,.job2 {
 		padding-bottom:5em;
