@@ -28,11 +28,11 @@ const ResultItem = ({title, subtitle, id, parraf, imagenes, videos}) => {
 					<div className="imags">
 								{imagenes.length > 2 && <div>
 								{	<Carousel showThumbs={false} autoPlay infiniteLoop interval={5000} transitionTime={800}>
-												{imagenes.map(src => <img  key={src} src={src} alt="Seguridad Vial"/>)}
+												{imagenes.map(src => <img  key={src} src={src} alt="Jobs Image"/>)}
 									</Carousel>}
 								</div>}
 								{imagenes.length <=2 && <div>
-								{ imagenes.map(src => <img className="imags"  key={src} src={src} alt="Seguridad Vial"/>)}
+								{ imagenes.map(src => <img className="imags"  key={src} src={src} alt="Jobs Image"/>)}
 								</div>}
 					</div>
 				</div>
